@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
-.body{
-    background-color: blue;
-    color: red;
+body{
+    background-color: white;
+    color: rgb(58, 27, 27);
+    font-size: 1.0rem;
+}
+
+.Title-main{
+    text-align: center;
 }
 
 .imagenmia{
@@ -14,4 +19,21 @@
     height: 200%;
     padding: 10px;
     margin: 40px;
+}
+.div-tecnologies{
+    text-align: left;
+    justify-content: center;
+}
+.Tecnologies{
+    text-align: left;
+}
+.fa-html5{
+    color: #E34C26;
+}
+
+.fa-css3-alt{
+    color: #264DE4;
+} 
+.fa-js{
+    color: #F0DB4F;
 }
