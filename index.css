@@ -86,3 +86,15 @@ body{
     color: black;
     text-decoration: none;
 }
+
+.imagengoogle{
+    width: 495px;
+    height: 380px;
+}
+
+.google-proyect{
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+}
