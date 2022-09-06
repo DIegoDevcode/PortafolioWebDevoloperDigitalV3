@@ -44,3 +44,45 @@ body{
 .fa-js{
     color: #F0DB4F;
 }
+.ImagenProyecto1{
+    text-align: left;
+}
+
+.TodoMachineImage{
+    width: 495px;
+    height: 380px;
+    padding: 10px;
+    margin: 10px;
+}
+.proyect-todoMachine{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.button-git{
+    text-align: center;
+    border-radius: 0%;
+    width: 400px;
+    background-color: white;
+    font-size: 1.4rem;
+}
+
+.button-git a {
+    text-decoration: none;
+}
+
+
+.button-proyect{
+    text-align: center;
+    border-radius: 0%;
+    width: 400px;
+    background-color: white;
+    font-size: 1.4rem;
+}
+
+.button-proyect a {
+    color: black;
+    text-decoration: none;
+}
