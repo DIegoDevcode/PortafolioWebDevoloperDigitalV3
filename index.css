@@ -7,32 +7,52 @@
 body{
     background-color: white;
     color: rgb(58, 27, 27);
-    font-size: 1.0rem;
+    font-size: 62.5%;
 }
 
 .Title-main{
     text-align: center;
+    font-size: 1.3rem;
+}
+/*Estilos de la seccion Aboutme*/
+
+.div-container{
+    display: flex;
+    background-color: #264DE4;
+}
+.section-aboutme h2{
+    font-size: 1.1rem;
 }
 
-.div-imagen{
-    min-width: 150px;
-    max-width: 1080px;
-    text-align: center;
-}
-
-.imagenmia{
-    width: 150px;
-    height: 180px;
+.section-aboutme img{
+    width: 20%;
+    height: 10%;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 50%;
+    align-items: center;
 }
-.div-tecnologies{
-    text-align: left;
-    justify-content: center;
+
+.article--description{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/*Estilos de la seccion Habilidades Tecnologicas*/
+
+.section--container{
+    display: flex;
+
+}
+
+.section--Technologicalskills{
+    font-size: 0.9rem;
+}
+
+.section--Technologicalskills ul{
+    flex-direction: column;
 }
 .Tecnologies{
-    text-align: left;
 }
 .fa-html5{
     color: #E34C26;
@@ -41,9 +61,7 @@ body{
 .fa-css3-alt{
     color: #264DE4;
 } 
-.fa-js{
-    color: #F0DB4F;
-}
+
 .ImagenProyecto1{
     text-align: left;
 }
