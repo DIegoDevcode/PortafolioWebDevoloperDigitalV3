@@ -1,6 +1,6 @@
 :root{
     --lg:1.2rem;
-    --md:0.8rem;
+    --md: 20px;
 
 }
 *{
@@ -13,6 +13,7 @@ body{
     background-color: white;
     color: rgb(58, 27, 27);
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 
 .Title-main{
@@ -23,10 +24,10 @@ body{
 
 .div-container{
     display: flex;
-    background-color: #264DE4;
+    justify-content: center;
 }
 .section-aboutme h2{
-    font-size: 1.1rem;
+    font-size: var(--lg);
 }
 
 .section-aboutme img{
@@ -34,7 +35,7 @@ body{
     height: 10%;
     padding: 10px;
     margin: 5px;
-    border-radius: 50%;
+    border-radius: 100%;
     align-items: center;
 }
 
@@ -48,7 +49,7 @@ body{
 
 
 .section--Technologicalskills{
-    font-size: 0.9rem;
+    font-size: var(--md);
 }
 
 .Tecnologies{
@@ -74,4 +75,19 @@ body{
     font-family:sans-serif ;
     font-size: var(--md);
     font-weight: 600;
+}
+
+/* Estilos de goole clone */
+.google-proyect h2{
+font-size: var(--lg);
+}
+
+.google-proyect p{
+    font-size: var(--md);
+    font-weight: 500;
+}
+
+.google-proyect img{
+    width: 100%;
+    height: 20%;
 }
