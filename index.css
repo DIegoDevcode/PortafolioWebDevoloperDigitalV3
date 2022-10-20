@@ -1,7 +1,9 @@
 :root{
     --lg:1.2rem;
     --md: 20px;
-
+    --Dark--Blue--color:#012B61;
+    --olivegreen--Secondarycolor:#02880B;
+    --Lightdarkpurple--Primarycolor:#88027F;
 }
 *{
     margin: 0;
@@ -10,8 +12,8 @@
 }
 
 body{
-    background-color: white;
-    color: rgb(58, 27, 27);
+    background-color: #012B61;
+    color:white;
     font-size: 62.5%;
     font-family: sans-serif;
 }
@@ -41,7 +43,7 @@ body{
 
 .article--description{
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: var(--md);
 }
 
 /*Estilos de la seccion Habilidades Tecnologicas*/
@@ -90,4 +92,28 @@ font-size: var(--lg);
 .google-proyect img{
     width: 100%;
     height: 20%;
+}
+
+.button-git-google{
+    text-align: center;
+    border-radius: 0%;
+    width: 100%;
+    background-color:var(--olivegreen--Secondarycolor);
+    font-size: var(--md);
+}
+.button-git-google a{
+    color: white;
+    text-decoration: none;
+}
+
+.button-google-demo{
+    text-align: center;
+    border-radius: 0%;
+    width: 100%;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    font-size: var(--md);
+}
+.button-google-demo a{
+    color: white;
+    text-decoration: none;
 }
