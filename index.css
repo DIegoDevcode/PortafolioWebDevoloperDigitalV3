@@ -117,3 +117,16 @@ font-size: var(--lg);
     color: white;
     text-decoration: none;
 }
+
+/*Estilos de la seccion Contact y del form */
+.contact h2{
+    font-size: var(--lg);
+    font-weight: bold;
+}
+.contact p{
+    font-size: var(--md);
+}
+
+.formulario{
+    font-size: var(--md);
+}
