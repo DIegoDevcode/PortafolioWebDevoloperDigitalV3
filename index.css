@@ -118,8 +118,44 @@ font-size: var(--lg);
     text-decoration: none;
 }
 
+/* Estilos de TodoMachine */
+.todomachine--proyect h2{
+    font-size: var(--lg);
+}
+.todomachine--proyect p{
+    font-size: var(--md);
+    font-weight: 500;
+}
+.todomachine--proyect img{
+    width: 100%;
+    height: 20%;
+}
+.button-git-todomachine{
+    text-align: center;
+    border-radius: 0%;
+    width: 100%;
+    background-color:var(--olivegreen--Secondarycolor);
+    font-size: var(--md);
+}
+
+.button-git-todomachine a{
+    color: white;
+    text-decoration: none;
+}
+
+.button-todomachine-demo{
+    text-align: center;
+    border-radius: 0%;
+    width: 100%;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    font-size: var(--md);
+}
+.button-todomachine-demo a{
+    color: white;
+    text-decoration: none;
+}
 /*Estilos de la seccion Contact y del form */
-.contact h2{
+.contact h1{
     font-size: var(--lg);
     font-weight: bold;
 }
@@ -128,5 +164,6 @@ font-size: var(--lg);
 }
 
 .formulario{
-    font-size: var(--md);
+    font-size: var(--lg);
+    font-weight: bold;
 }
