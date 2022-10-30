@@ -68,7 +68,7 @@ body{
 } 
 
 /* Estilos de la seccion de proyectos */
-.start-project h2{
+.start-project h1{
     font-family:sans-serif ;
     font-size: var(--lg);
     font-weight: bold;
