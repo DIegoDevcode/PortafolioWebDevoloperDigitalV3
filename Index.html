@@ -18,7 +18,7 @@
     </header>
     <main>
         <section class="section-aboutme">
-            <h2>Sobre mi</h2>
+            <h1>Sobre mi</h1>
         <div class="div-container">
              <img src="/Images/NuevaFotoMia.jpeg" alt="Esta foto es de Juan Diego">
             </div>
@@ -27,8 +27,8 @@
             </article>
         </section>            
                 <section class="section--Technologicalskills">
-                    <H3>Habilidades Tecnicas</H3>
-                    <p>Actualmente manejo los siguientes lenguanjes de programacion:</p><br>
+                    <h1>Habilidades Tecnicas</h1>
+                    <p><br> Actualmente manejo los siguientes lenguanjes de programacion:</p><br>
                     <ul class="Tecnologies">
                             <li class="fa-solid"><i class="fa-brands fa-html5"></i></i>HTML</li>
                             <li class="fa-solid"><i class="fa-brands fa-css3-alt"></i>CSS</li>
@@ -36,7 +36,7 @@
                 </section>
         <section class="start-project">
             <h1>Proyectos</h1>
-            <br><p> En esta seccion encotraras todos los proyectos que he hecho en mi carrera profesional como frotend devoloper:</p><br>
+            <br><p> En esta seccion encotraras todos los proyectos que he hecho en mi carrera profesional como front-end devoloper:</p><br>
         </section>
         <Article class="one-proyect">
             <div class="google-proyect">
@@ -64,26 +64,35 @@
 
         <Article class="three--proyect">
             <div class="yardsale--proyect">
-                <h2>Yarsale online </h2>
+                <h2>Yardsale online </h2>
                 <br><p>Yard sale es una simulacion de tienda online, la cual es interactiva, permite ver que productos estan a la venta, interactuar con un carrito de compra es totalmente resposive. Este proyecto esta construido con Html, Css y Javascript</p><br>
                 <br><img src="./Images/Captura web_30-10-2022_18163_diegodevcode.github.io.jpeg" alt="Esta foto es de Yard sale online"><br>
                 <div>
-                    <button type="button" class="button-git-yardsale"><a href="https://github.com/DIegoDevcode/TodoMachine">Codigo</a></button>
+                    <button type="button" class="button-git-yardsale"><a href="https://github.com/DIegoDevcode/Yard-sale">Codigo</a></button>
                     <button type="button" class="button-yardsale-demo"><a href="https://github.com/DIegoDevcode/Yard-sale">Demo</a></button>
                 </div>
             </div>
         </Article>
         <section class="contact">
-            <h2>Contacto</h2>
+            <h1>Contacto</h1>
             <p>Te puedes contactar conmigo a traves del siguiente formulario</p>
             <form class="formulario">
-                <label for="name"> Nombre:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="lname">Apellido:</label><br>
-                <input type="text" id="lname" name="lname">
-                <br><label for="email">Introduce tu correo electronico</label><br>
-                <input type="email" id="email" name="email">
-                <input type="submit" value="Submit">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+
+                <br><label for="apellidos">Apellidos:</label><br>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tu Apellido"/>
+
+                <br><label for="email" />Email</label><br>
+                <input type="email" name="email" id="email" placeholder="email" required />
+
+                <br><label for="asunto">Asunto</label><br>
+                <input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/><br>
+
+                <br><label for="mensaje">Mensaje</label><br>
+                <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+                
+                <br><input type="submit" name="enviar" value="enviar datos"/><br>
             </form>
         </section>
 </body>
