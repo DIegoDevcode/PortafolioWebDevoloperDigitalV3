@@ -1,6 +1,9 @@
 :root{
-    --lg:1.4rem;
+    /*Tamaño de fuentes*/
+    --lg:1.3rem;
     --md: 25px;
+    --sm: 1.1rem;
+    /*Colores*/
     --Dark--Blue--color:#012B61;
     --olivegreen--Secondarycolor:#02880B;
     --Lightdarkpurple--Primarycolor:#88027F;
@@ -193,7 +196,31 @@ font-size: var(--lg);
     color: white;
     text-decoration: none;
 }
+
+/*Estilos de mis redes sociales */
+
+.Socialnetworks li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+    font-size: var(--sm);
+}
+
+.fa-linkedin{
+    color: #0173B1;
+    font-size: var(--sm);
+}
+
+.fa-square-github{
+    color: white;
+    font-size: var(--sm);
+}
 /*Estilos de la seccion Contact y del form */
+
 .contact h1{
     font-size: var(--lg);
     font-weight: bold;
