@@ -199,10 +199,15 @@ font-size: var(--lg);
 
 /*Estilos de mis redes sociales */
 
-.Socialnetworks li a{
+
+.Socialnetworks li a span{
     list-style: none;
     text-decoration: none;
     color: white;
+    margin: 1em;
+}
+.list--social span{
+    text-transform: capitalize;
 }
 
 .fa-twitter{
@@ -233,3 +238,91 @@ font-size: var(--lg);
     font-size: var(--lg);
     font-weight: bold;
 }
+
+/*Seccion de mediaquerys*/
+@media screen and (min-width: 1024px) {
+    .google-proyect img{
+        width: 70%;
+        height: 20%;
+    }
+    .button-git-google{
+        text-align: center;
+        border-radius: 0%;
+        width: 70%;
+        background-color:var(--olivegreen--Secondarycolor);
+        font-size: var(--md);
+    }
+    .button-git-google a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .button-google-demo{
+        text-align: center;
+        border-radius: 0%;
+        width: 70%;
+        background-color: var(--Lightdarkpurple--Primarycolor);
+        font-size: var(--md);
+    }
+    .button-google-demo a{
+        color: white;
+        text-decoration: none;
+    }
+    .todomachine--proyect img{
+        width: 70%;
+        height: 20%;
+    }
+    .button-git-todomachine{
+        text-align: center;
+        border-radius: 0%;
+        width: 70%;
+        background-color:var(--olivegreen--Secondarycolor);
+        font-size: var(--md);
+    }
+    
+    .button-git-todomachine a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .button-todomachine-demo{
+        text-align: center;
+        border-radius: 0%;
+        width: 70%;
+        background-color: var(--Lightdarkpurple--Primarycolor);
+        font-size: var(--md);
+    }
+    .button-todomachine-demo a{
+        color: white;
+        text-decoration: none;
+    }
+    .yardsale--proyect img{
+        width: 70%;
+        height: 20%;
+    }
+    .button-git-yardsale{
+        text-align: center;
+        border-radius: 0%;
+        width: 70%;
+        background-color:var(--olivegreen--Secondarycolor);
+        font-size: var(--md);
+    }
+    
+    .button-git-yardsale a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .button-yardsale-demo{
+        text-align: center;
+        border-radius: 0%;
+        width: 70%;
+        background-color: var(--Lightdarkpurple--Primarycolor);
+        font-size: var(--md);
+    }
+    .button-yardsale-demo a{
+        color: white;
+        text-decoration: none;
+    }
+  }
+  
