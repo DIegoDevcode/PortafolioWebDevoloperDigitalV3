@@ -203,10 +203,12 @@ font-size: var(--lg);
     list-style: none;
     text-decoration: none;
     color: white;
-    margin: 1em;
+    margin: 1rem;
+    
 }
 .list--social span{
     text-transform: capitalize;
+    font-size: var(--md);
 }
 
 .fa-twitter{
@@ -247,6 +249,73 @@ font-size: var(--lg);
 }
 
 /*Seccion de mediaquerys*/
+@media screen and (min-width: 300px) and (max-width:1024px){
+    input::-webkit-input-placeholder{
+        font-weight: 900;
+        color: white;
+      }
+    form{
+        width:300px;
+        padding:16px;
+        border-radius:10px;
+        margin: auto;
+        background-color:var(--Dark--Blue--color);
+    }
+
+    form label{
+        width:72px;
+        font-weight:bold;
+        display:inline-block;
+    }
+    
+    form input[type="text"],
+    form input[type="email"]{
+        width:180px;
+        padding:3px 12px;
+        border:5px solid var(--Lightdarkpurple--Primarycolor);
+        border-radius:3px;
+        background-color:var(--Lightdarkpurple--Primarycolor);
+        margin:8px 0;
+        display:inline-block;
+    }
+    
+    form input[type="submit"]{
+        width:100%;
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid var(--Lightdarkpurple--Primarycolor);
+        border-radius:5px;
+        display:block;
+        color:white;
+        background-color:var(--olivegreen--Secondarycolor);
+        font-weight: bold;
+    } 
+    
+    form input[type="submit"]:hover{
+        cursor:pointer;
+    }
+    
+
+    form input[type="text"]::placeholder{
+        color: white;
+    }
+
+    textarea{
+        width:100%;
+        height:100px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:var(--Lightdarkpurple--Primarycolor);			
+        margin:8px 0;
+        /*resize: vertical | horizontal | none | both*/
+        resize:none;
+        display:block;
+  }
+  textarea::-webkit-input-placeholder{
+    font-weight: 900;
+    color: white;
+  }
+}
 @media screen and (min-width: 1024px) {
     .google-proyect img{
         width: 70%;
@@ -332,6 +401,11 @@ font-size: var(--lg);
         text-decoration: none;
     }
 
+    input::-webkit-input-placeholder{
+        font-weight: 900;
+        color: white;
+      }
+
     form{
         width:300px;
         padding:16px;
@@ -383,5 +457,9 @@ font-size: var(--lg);
         /*resize: vertical | horizontal | none | both*/
         resize:none;
         display:block;
+  }
+  textarea::-webkit-input-placeholder{
+    font-weight: 900;
+    color: white;
   }
 }
