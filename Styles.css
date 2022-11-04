@@ -239,6 +239,13 @@ font-size: var(--lg);
     font-weight: bold;
 }
 
+/*Estilos del footer*/
+
+.end p{
+    text-align: center;
+    font-size: var(--sm);
+}
+
 /*Seccion de mediaquerys*/
 @media screen and (min-width: 1024px) {
     .google-proyect img{
