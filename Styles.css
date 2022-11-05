@@ -40,7 +40,7 @@ body{
     height: 10%;
     padding: 10px;
     margin: 5px;
-    border-radius: 100%;
+    border-radius: 70%;
     align-items: center;
 }
 
@@ -65,11 +65,15 @@ body{
     list-style: none;
     color: white;
     text-transform: capitalize;
-
 }
 
 .Tecnologies span{
     padding: 25px;
+}
+
+.Tecnologies i{
+    height: 30px;
+    font-size: 30px;
 }
 
 .fa-html5{
@@ -95,6 +99,7 @@ body{
 /* Estilos de goole clone */
 .google-proyect h2{
 font-size: var(--lg);
+height: 40%;
 }
 
 .google-proyect p{
@@ -134,6 +139,7 @@ font-size: var(--lg);
 /* Estilos de TodoMachine */
 .todomachine--proyect h2{
     font-size: var(--lg);
+    height: 50%;
 }
 .todomachine--proyect p{
     font-size: var(--md);
@@ -218,6 +224,11 @@ font-size: var(--lg);
 .list--social span{
     text-transform: capitalize;
     font-size: var(--md);
+}
+
+.list--social i{
+    height: 30px;
+    font-size: 30px;
 }
 
 .fa-twitter{
