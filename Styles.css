@@ -1,7 +1,7 @@
 :root{
     /*Tamaño de fuentes*/
     --lg:1.3rem;
-    --md: 25px;
+    --md: 18px;
     --sm: 1.1rem;
     /*Colores*/
     --Dark--Blue--color:#012B61;
@@ -59,11 +59,19 @@ body{
 .Tecnologies{
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding: 0;
     font-size: var(--md);
-    margin: 20px;
+    margin: 0;
+    list-style: none;
+    color: white;
+    text-transform: capitalize;
 
 }
+
+.Tecnologies span{
+    padding: 25px;
+}
+
 .fa-html5{
     color: #E34C26;
 }
