@@ -1,0 +1,33 @@
+.section--Technologicalskills h1{
+    font-size: var(--md);
+}
+.section--Technologicalskills p{
+    font-size: var(--md);
+}
+.Tecnologies{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-size: var(--md);
+    margin: 0;
+    list-style: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.Tecnologies span{
+    padding: 25px;
+}
+
+.Tecnologies i{
+    height: 30px;
+    font-size: 30px;
+}
+
+.fa-html5{
+    color: #E34C26;
+}
+
+.fa-css3-alt{
+    color: #264DE4;
+} 

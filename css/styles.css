@@ -1,0 +1,496 @@
+@charset "UTF-8";
+:root {
+  /*Tamaño de fuentes*/
+  --lg:1.3rem;
+  --md: 18px;
+  --sm: 1.1rem;
+  /*Colores*/
+  --Dark--Blue--color:#012B61;
+  --olivegreen--Secondarycolor:#02880B;
+  --Lightdarkpurple--Primarycolor:#88027F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #012B61;
+  color: white;
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+.Title-main {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.div-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-aboutme h1 {
+  font-size: var(--lg);
+}
+
+.section-aboutme img {
+  width: 20%;
+  height: 10%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.article--description {
+  font-weight: 500;
+  font-size: var(--md);
+}
+
+.section--Technologicalskills h1 {
+  font-size: var(--md);
+}
+
+.section--Technologicalskills p {
+  font-size: var(--md);
+}
+
+.Tecnologies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  font-size: var(--md);
+  margin: 0;
+  list-style: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+.Tecnologies span {
+  padding: 25px;
+}
+
+.Tecnologies i {
+  height: 30px;
+  font-size: 30px;
+}
+
+.fa-html5 {
+  color: #E34C26;
+}
+
+.fa-css3-alt {
+  color: #264DE4;
+}
+
+.start-project h1 {
+  font-family: sans-serif;
+  font-size: var(--lg);
+  font-weight: bold;
+}
+
+.start-project p {
+  font-family: sans-serif;
+  font-size: var(--md);
+  font-weight: 600;
+}
+
+/* Estilos de goole clone */
+.google-proyect h2 {
+  font-size: var(--lg);
+  height: 40%;
+}
+
+.google-proyect p {
+  font-size: var(--md);
+  font-weight: 500;
+}
+
+.google-proyect img {
+  width: 100%;
+  height: 20%;
+}
+
+.button-git-google {
+  text-align: center;
+  border-radius: 0%;
+  width: 100%;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+
+.button-git-google a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-google-demo {
+  text-align: center;
+  border-radius: 0%;
+  width: 100%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+
+.button-google-demo a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos de TodoMachine */
+.todomachine--proyect h2 {
+  font-size: var(--lg);
+  height: 50%;
+}
+
+.todomachine--proyect p {
+  font-size: var(--md);
+  font-weight: 500;
+}
+
+.todomachine--proyect img {
+  width: 100%;
+  height: 20%;
+}
+
+.button-git-todomachine {
+  text-align: center;
+  border-radius: 0%;
+  width: 100%;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+
+.button-git-todomachine a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-todomachine-demo {
+  text-align: center;
+  border-radius: 0%;
+  width: 100%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+
+.button-todomachine-demo a {
+  color: white;
+  text-decoration: none;
+}
+
+/*Estilos de Yard Sale online */
+.yardsale--proyect h2 {
+  font-size: var(--lg);
+}
+
+.yardsale--proyect p {
+  font-size: var(--md);
+  font-weight: 500;
+}
+
+.yardsale--proyect img {
+  width: 100%;
+  height: 20%;
+}
+
+.button-git-yardsale {
+  text-align: center;
+  border-radius: 0%;
+  width: 100%;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+
+.button-git-yardsale a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-yardsale-demo {
+  text-align: center;
+  border-radius: 0%;
+  width: 100%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+
+.button-yardsale-demo a {
+  color: white;
+  text-decoration: none;
+}
+
+.Socialnetworks li a span {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+}
+
+.list--social span {
+  text-transform: capitalize;
+  font-size: var(--md);
+}
+
+.list--social i {
+  height: 30px;
+  font-size: 30px;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+  font-size: var(--md);
+}
+
+.fa-linkedin {
+  color: #0173B1;
+  font-size: var(--md);
+}
+
+.fa-square-github {
+  color: white;
+  font-size: var(--md);
+}
+
+.contact h1 {
+  font-size: var(--lg);
+  font-weight: bold;
+}
+
+.contact p {
+  font-size: var(--md);
+}
+
+.formulario {
+  font-size: var(--lg);
+  font-weight: bold;
+}
+
+.end p {
+  text-align: center;
+  font-size: var(--sm);
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  input::-webkit-input-placeholder {
+    font-weight: 900;
+    color: white;
+  }
+  form {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: var(--Dark--Blue--color);
+  }
+  form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  form input[type=text],
+form input[type=email] {
+    width: 180px;
+    padding: 3px 12px;
+    border: 5px solid var(--Lightdarkpurple--Primarycolor);
+    border-radius: 3px;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    margin: 8px 0;
+    display: inline-block;
+  }
+  form input[type=submit] {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid var(--Lightdarkpurple--Primarycolor);
+    border-radius: 5px;
+    display: block;
+    color: white;
+    background-color: var(--olivegreen--Secondarycolor);
+    font-weight: bold;
+  }
+  form input[type=submit]:hover {
+    cursor: pointer;
+  }
+  form input[type=text]::-webkit-input-placeholder {
+    color: white;
+  }
+  form input[type=text]::-moz-placeholder {
+    color: white;
+  }
+  form input[type=text]:-ms-input-placeholder {
+    color: white;
+  }
+  form input[type=text]::-ms-input-placeholder {
+    color: white;
+  }
+  form input[type=text]::placeholder {
+    color: white;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    margin: 8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize: none;
+    display: block;
+  }
+  textarea::-webkit-input-placeholder {
+    font-weight: 900;
+    color: white;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .google-proyect img {
+    width: 70%;
+    height: 20%;
+  }
+  .button-git-google {
+    text-align: center;
+    border-radius: 0%;
+    width: 70%;
+    background-color: var(--olivegreen--Secondarycolor);
+    font-size: var(--md);
+  }
+  .button-git-google a {
+    color: white;
+    text-decoration: none;
+  }
+  .button-google-demo {
+    text-align: center;
+    border-radius: 0%;
+    width: 70%;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    font-size: var(--md);
+  }
+  .button-google-demo a {
+    color: white;
+    text-decoration: none;
+  }
+  .todomachine--proyect img {
+    width: 70%;
+    height: 20%;
+  }
+  .button-git-todomachine {
+    text-align: center;
+    border-radius: 0%;
+    width: 70%;
+    background-color: var(--olivegreen--Secondarycolor);
+    font-size: var(--md);
+  }
+  .button-git-todomachine a {
+    color: white;
+    text-decoration: none;
+  }
+  .button-todomachine-demo {
+    text-align: center;
+    border-radius: 0%;
+    width: 70%;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    font-size: var(--md);
+  }
+  .button-todomachine-demo a {
+    color: white;
+    text-decoration: none;
+  }
+  .yardsale--proyect img {
+    width: 70%;
+    height: 20%;
+  }
+  .button-git-yardsale {
+    text-align: center;
+    border-radius: 0%;
+    width: 70%;
+    background-color: var(--olivegreen--Secondarycolor);
+    font-size: var(--md);
+  }
+  .button-git-yardsale a {
+    color: white;
+    text-decoration: none;
+  }
+  .button-yardsale-demo {
+    text-align: center;
+    border-radius: 0%;
+    width: 70%;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    font-size: var(--md);
+  }
+  .button-yardsale-demo a {
+    color: white;
+    text-decoration: none;
+  }
+  input::-webkit-input-placeholder {
+    font-weight: 900;
+    color: white;
+  }
+  form {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: var(--Dark--Blue--color);
+  }
+  form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  form input[type=text],
+form input[type=email] {
+    width: 180px;
+    padding: 3px 12px;
+    border: 5px solid var(--Lightdarkpurple--Primarycolor);
+    border-radius: 3px;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    margin: 8px 0;
+    display: inline-block;
+  }
+  form input[type=submit] {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid var(--Lightdarkpurple--Primarycolor);
+    border-radius: 5px;
+    display: block;
+    color: white;
+    background-color: var(--olivegreen--Secondarycolor);
+    font-weight: bold;
+  }
+  form input[type=submit]:hover {
+    cursor: pointer;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    margin: 8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize: none;
+    display: block;
+  }
+  textarea::-webkit-input-placeholder {
+    font-weight: 900;
+    color: white;
+  }
+}

@@ -1,0 +1,27 @@
+:root{
+    /*Tamaño de fuentes*/
+    --lg:1.3rem;
+    --md: 18px;
+    --sm: 1.1rem;
+    /*Colores*/
+    --Dark--Blue--color:#012B61;
+    --olivegreen--Secondarycolor:#02880B;
+    --Lightdarkpurple--Primarycolor:#88027F;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #012B61;
+    color:white;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+.Title-main{
+    text-align: center;
+    font-size: 1.3rem;
+}

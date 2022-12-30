@@ -1,0 +1,21 @@
+.div-container{
+    display: flex;
+    justify-content: center;
+}
+.section-aboutme h1{
+    font-size: var(--lg);
+}
+
+.section-aboutme img{
+    width: 20%;
+    height: 10%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 70%;
+    align-items: center;
+}
+
+.article--description{
+    font-weight: 500;
+    font-size: var(--md);
+}
