@@ -1,0 +1,57 @@
+nav{
+    background-color: var(--color-secondary);
+    display: grid;
+    grid-template-columns:  1500px 1500px;
+}
+
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img{
+    width: 220px;
+    margin-top: 10px;
+}
+
+header .headers-Socialnetworks-icons-container{
+    width: 100%;
+    height: 50px;
+}
+
+header headers-Socialnetworks-icons-container .icons{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+
+
+
+.fa-twitter{
+    color: #1DA1F2;
+    font-size: var(--vlg);
+    height: 91px;
+    width: 5px;
+    margin-right: 70px;
+}
+
+.fa-linkedin{
+    color: #0173B1;
+    font-size: var(--vlg);
+    height: 50px;
+    width: 5px;
+    margin-right: 70px;
+}
+
+.fa-square-github{
+    color: black;
+    font-size: var(--vlg);
+    height: 91px;
+    width: 75.10px;
+    margin-right: 70px;
+}

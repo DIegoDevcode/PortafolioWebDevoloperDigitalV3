@@ -1,6 +1,7 @@
 @charset "UTF-8";
 :root {
   /*Tamaño de fuentes*/
+  --vlg:2.0rem;
   --lg:1.3rem;
   --md: 18px;
   --sm: 1.1rem;
@@ -8,6 +9,7 @@
   --Dark--Blue--color:#012B61;
   --olivegreen--Secondarycolor:#02880B;
   --Lightdarkpurple--Primarycolor:#88027F;
+  --color-secondary: #A88513;
 }
 
 * {
@@ -22,11 +24,6 @@ body {
   color: white;
   font-size: 62.5%;
   font-family: sans-serif;
-}
-
-.Title-main {
-  text-align: center;
-  font-size: 1.3rem;
 }
 
 .div-container {
@@ -234,38 +231,6 @@ body {
 .button-yardsale-demo a {
   color: white;
   text-decoration: none;
-}
-
-.Socialnetworks li a span {
-  list-style: none;
-  text-decoration: none;
-  color: white;
-  margin: 1rem;
-}
-
-.list--social span {
-  text-transform: capitalize;
-  font-size: var(--md);
-}
-
-.list--social i {
-  height: 30px;
-  font-size: 30px;
-}
-
-.fa-twitter {
-  color: #1DA1F2;
-  font-size: var(--md);
-}
-
-.fa-linkedin {
-  color: #0173B1;
-  font-size: var(--md);
-}
-
-.fa-square-github {
-  color: white;
-  font-size: var(--md);
 }
 
 .contact h1 {
@@ -493,4 +458,67 @@ form input[type=email] {
     font-weight: 900;
     color: white;
   }
+}
+nav {
+  background-color: var(--color-secondary);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1500px 1500px;
+  grid-template-columns: 1500px 1500px;
+}
+
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+  width: 220px;
+  margin-top: 10px;
+}
+
+header .headers-Socialnetworks-icons-container {
+  width: 100%;
+  height: 50px;
+}
+
+header headers-Socialnetworks-icons-container .icons {
+  width: 300px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin-right: 50px;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+  font-size: var(--vlg);
+  height: 91px;
+  width: 5px;
+  margin-right: 70px;
+}
+
+.fa-linkedin {
+  color: #0173B1;
+  font-size: var(--vlg);
+  height: 50px;
+  width: 5px;
+  margin-right: 70px;
+}
+
+.fa-square-github {
+  color: black;
+  font-size: var(--vlg);
+  height: 91px;
+  width: 75.1px;
+  margin-right: 70px;
 }

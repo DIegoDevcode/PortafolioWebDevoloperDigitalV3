@@ -1,5 +1,6 @@
 :root{
     /*Tamaño de fuentes*/
+    --vlg:2.0rem;
     --lg:1.3rem;
     --md: 18px;
     --sm: 1.1rem;
@@ -7,6 +8,7 @@
     --Dark--Blue--color:#012B61;
     --olivegreen--Secondarycolor:#02880B;
     --Lightdarkpurple--Primarycolor:#88027F;
+    --color-secondary: #A88513;
 }
 *{
     margin: 0;
@@ -21,7 +23,3 @@ body{
     font-family: sans-serif;
 }
 
-.Title-main{
-    text-align: center;
-    font-size: 1.3rem;
-}
