@@ -15,8 +15,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -27,12 +26,8 @@ body {
 }
 
 .div-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .section-aboutme h1 {
@@ -45,9 +40,7 @@ body {
   padding: 10px;
   margin: 5px;
   border-radius: 70%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .article--description {
@@ -64,13 +57,8 @@ body {
 }
 
 .Tecnologies {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 0;
   font-size: var(--md);
   margin: 0;
@@ -270,7 +258,7 @@ body {
     display: inline-block;
   }
   form input[type=text],
-form input[type=email] {
+  form input[type=email] {
     width: 180px;
     padding: 3px 12px;
     border: 5px solid var(--Lightdarkpurple--Primarycolor);
@@ -293,16 +281,7 @@ form input[type=email] {
   form input[type=submit]:hover {
     cursor: pointer;
   }
-  form input[type=text]::-webkit-input-placeholder {
-    color: white;
-  }
   form input[type=text]::-moz-placeholder {
-    color: white;
-  }
-  form input[type=text]:-ms-input-placeholder {
-    color: white;
-  }
-  form input[type=text]::-ms-input-placeholder {
     color: white;
   }
   form input[type=text]::placeholder {
@@ -420,7 +399,7 @@ form input[type=email] {
     display: inline-block;
   }
   form input[type=text],
-form input[type=email] {
+  form input[type=email] {
     width: 180px;
     padding: 3px 12px;
     border: 5px solid var(--Lightdarkpurple--Primarycolor);
@@ -460,65 +439,27 @@ form input[type=email] {
   }
 }
 nav {
-  background-color: var(--color-secondary);
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1500px 1500px;
-  grid-template-columns: 1500px 1500px;
+  width: 1000%;
+  height: 100%;
+  background-color: aquamarine;
+}
+nav .logo img {
+  width: 80px;
+  height: 80px;
 }
 
-nav .nav-logo-container {
-  margin-left: 50px;
-}
-
-nav .nav-logo-container img {
-  width: 220px;
-  margin-top: 10px;
-}
-
-header .headers-Socialnetworks-icons-container {
+.icons-container {
   width: 100%;
-  height: 50px;
+  height: 100%;
 }
-
-header headers-Socialnetworks-icons-container .icons {
-  width: 300px;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-grid-column-align: end;
-      justify-self: end;
-  margin-right: 50px;
+.icons-container .icons {
+  width: 20%;
 }
-
-.fa-twitter {
-  color: #1DA1F2;
-  font-size: var(--vlg);
-  height: 91px;
-  width: 5px;
-  margin-right: 70px;
+.icons-container li {
+  list-style: none;
+  display: inline-block;
 }
-
-.fa-linkedin {
-  color: #0173B1;
-  font-size: var(--vlg);
-  height: 50px;
-  width: 5px;
-  margin-right: 70px;
-}
-
-.fa-square-github {
-  color: black;
-  font-size: var(--vlg);
-  height: 91px;
-  width: 75.1px;
-  margin-right: 70px;
-}
+.icons-container li img {
+  width: 80px;
+  height: 80px;
+}/*# sourceMappingURL=styles.css.map */

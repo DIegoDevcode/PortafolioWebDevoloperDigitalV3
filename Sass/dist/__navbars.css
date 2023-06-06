@@ -1,0 +1,25 @@
+nav {
+  width: 1000%;
+  height: 100%;
+  background-color: aquamarine;
+}
+nav .logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.icons-container {
+  width: 100%;
+  height: 100%;
+}
+.icons-container .icons {
+  width: 20%;
+}
+.icons-container li {
+  list-style: none;
+  display: inline-block;
+}
+.icons-container li img {
+  width: 80px;
+  height: 80px;
+}
