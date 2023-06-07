@@ -438,28 +438,41 @@ body {
     color: white;
   }
 }
-nav {
-  width: 1000%;
-  height: 100%;
-  background-color: aquamarine;
-}
-nav .logo img {
-  width: 80px;
-  height: 80px;
+h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
-.icons-container {
+.navbar {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
 }
-.icons-container .icons {
-  width: 20%;
+.navbar .logo {
+  margin-right: 10px;
+  /* Espacio entre el logo y los íconos de redes sociales */
 }
-.icons-container li {
+.navbar .logo img {
+  width: 40px;
+  border-radius: 30px;
+}
+.navbar .social-icons {
+  display: flex;
   list-style: none;
-  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
-.icons-container li img {
-  width: 80px;
-  height: 80px;
+.navbar .social-icons img {
+  width: 40px;
+}
+.navbar .social-icons li {
+  margin-right: 50px;
+  /* Espacio entre los íconos de redes sociales */
+}
+.navbar .social-icons li:last-child {
+  margin-right: 0;
+  /* No aplicar margen al último ícono */
 }/*# sourceMappingURL=styles.css.map */
