@@ -1,21 +1,22 @@
-.div-container{
+.section-profile{
+    h1{
+        font-size: var(--md);
+    }
+}
+
+.profile-container{
     display: flex;
-    justify-content: center;
-}
-.section-aboutme h1{
-    font-size: var(--lg);
-}
-
-.section-aboutme img{
-    width: 20%;
-    height: 10%;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 70%;
     align-items: center;
+    img{
+        margin-right: 10px; /* Espacio entre la imagen y la descripción */
+        border-radius: 50px;
+        width: 130px;
+    }
+    .article--description{
+        font-weight: 500;
+        font-size: var(--md);
+        flex: 1; /* Ocupar el espacio restante en el contenedor */
+    }
 }
 
-.article--description{
-    font-weight: 500;
-    font-size: var(--md);
-}
+

@@ -25,27 +25,23 @@ body {
   font-family: sans-serif;
 }
 
-.div-container {
+.section-profile h1 {
+  font-size: var(--md);
+}
+
+.profile-container {
   display: flex;
-  justify-content: center;
-}
-
-.section-aboutme h1 {
-  font-size: var(--lg);
-}
-
-.section-aboutme img {
-  width: 20%;
-  height: 10%;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 70%;
   align-items: center;
 }
-
-.article--description {
+.profile-container img {
+  margin-right: 10px; /* Espacio entre la imagen y la descripción */
+  border-radius: 50px;
+  width: 130px;
+}
+.profile-container .article--description {
   font-weight: 500;
   font-size: var(--md);
+  flex: 1; /* Ocupar el espacio restante en el contenedor */
 }
 
 .section--Technologicalskills h1 {
@@ -442,6 +438,8 @@ h1 {
   display: flex;
   text-align: center;
   justify-content: center;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
 
 .navbar {
@@ -450,6 +448,7 @@ h1 {
   justify-content: space-between;
   width: 100%;
   height: 100%;
+  margin-bottom: 25px;
 }
 .navbar .logo {
   margin-right: 10px;
