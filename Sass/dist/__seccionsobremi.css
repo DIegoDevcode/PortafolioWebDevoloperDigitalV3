@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .section-profile h1 {
   font-size: var(--md);
+  margin: 10px;
 }
 
 .profile-container {
@@ -8,7 +9,7 @@
   align-items: center;
 }
 .profile-container img {
-  margin-right: 10px;
+  margin-right: 35px;
   /* Espacio entre la imagen y la descripción */
   border-radius: 50px;
   width: 130px;

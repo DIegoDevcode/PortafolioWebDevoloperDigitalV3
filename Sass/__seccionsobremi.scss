@@ -1,6 +1,7 @@
 .section-profile{
     h1{
         font-size: var(--md);
+        margin: 10px;
     }
 }
 
@@ -8,7 +9,7 @@
     display: flex;
     align-items: center;
     img{
-        margin-right: 10px; /* Espacio entre la imagen y la descripción */
+        margin-right: 35px; /* Espacio entre la imagen y la descripción */
         border-radius: 50px;
         width: 130px;
     }
