@@ -20,3 +20,6 @@
   flex: 1;
   /* Ocupar el espacio restante en el contenedor */
 }
+.profile-container .article--description p {
+  line-height: 1.8rem;
+}

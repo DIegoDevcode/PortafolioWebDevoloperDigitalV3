@@ -44,6 +44,9 @@ body {
   font-size: var(--md);
   flex: 1; /* Ocupar el espacio restante en el contenedor */
 }
+.profile-container .article--description p {
+  line-height: 1.8rem;
+}
 
 .section--Technologicalskills h1 {
   font-size: var(--md);
@@ -51,34 +54,55 @@ body {
 
 .section--Technologicalskills p {
   font-size: var(--md);
+  line-height: 1.5rem;
+  text-align: center;
 }
 
-.Tecnologies {
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+  grid-gap: 10px; /* Espacio entre las columnas */
+  justify-items: center; /* Centrar horizontalmente las columnas */
+  align-items: center; /* Centrar verticalmente las columnas */
+  justify-content: center;
+}
+
+.language-programming {
   display: flex;
   flex-direction: column;
   padding: 0;
   font-size: var(--md);
-  margin: 0;
+  margin: 0 auto;
   list-style: none;
   color: white;
   text-transform: capitalize;
 }
-
-.Tecnologies span {
+.language-programming .language-programming span {
   padding: 25px;
 }
-
-.Tecnologies i {
+.language-programming .language-programming i {
   height: 30px;
-  font-size: 30px;
+  font-size: var(--md);
 }
 
 .fa-html5 {
   color: #E34C26;
+  height: 30px;
+  width: 40px;
+  font-size: 40px;
 }
 
 .fa-css3-alt {
   color: #264DE4;
+  width: 40px;
+  height: 30px;
+  font-size: 40px;
+}
+
+.fa-square-github {
+  width: 40px;
+  height: 30px;
+  font-size: 40px;
 }
 
 .start-project h1 {
