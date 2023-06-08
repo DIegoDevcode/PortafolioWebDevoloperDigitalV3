@@ -35,14 +35,16 @@ body {
   align-items: center;
 }
 .profile-container img {
-  margin-right: 35px; /* Espacio entre la imagen y la descripción */
+  margin-right: 35px;
+  /* Espacio entre la imagen y la descripción */
   border-radius: 50px;
   width: 130px;
 }
 .profile-container .article--description {
   font-weight: 500;
   font-size: var(--md);
-  flex: 1; /* Ocupar el espacio restante en el contenedor */
+  flex: 1;
+  /* Ocupar el espacio restante en el contenedor */
 }
 .profile-container .article--description p {
   line-height: 1.8rem;
@@ -263,6 +265,7 @@ body {
     font-weight: 900;
     color: white;
   }
+
   form {
     width: 300px;
     padding: 16px;
@@ -270,13 +273,15 @@ body {
     margin: auto;
     background-color: var(--Dark--Blue--color);
   }
+
   form label {
     width: 72px;
     font-weight: bold;
     display: inline-block;
   }
+
   form input[type=text],
-  form input[type=email] {
+form input[type=email] {
     width: 180px;
     padding: 3px 12px;
     border: 5px solid var(--Lightdarkpurple--Primarycolor);
@@ -285,6 +290,7 @@ body {
     margin: 8px 0;
     display: inline-block;
   }
+
   form input[type=submit] {
     width: 100%;
     padding: 8px 16px;
@@ -296,15 +302,15 @@ body {
     background-color: var(--olivegreen--Secondarycolor);
     font-weight: bold;
   }
+
   form input[type=submit]:hover {
     cursor: pointer;
   }
-  form input[type=text]::-moz-placeholder {
-    color: white;
-  }
+
   form input[type=text]::placeholder {
     color: white;
   }
+
   textarea {
     width: 100%;
     height: 100px;
@@ -316,6 +322,7 @@ body {
     resize: none;
     display: block;
   }
+
   textarea::-webkit-input-placeholder {
     font-weight: 900;
     color: white;
@@ -326,6 +333,7 @@ body {
     width: 70%;
     height: 20%;
   }
+
   .button-git-google {
     text-align: center;
     border-radius: 0%;
@@ -333,10 +341,12 @@ body {
     background-color: var(--olivegreen--Secondarycolor);
     font-size: var(--md);
   }
+
   .button-git-google a {
     color: white;
     text-decoration: none;
   }
+
   .button-google-demo {
     text-align: center;
     border-radius: 0%;
@@ -344,14 +354,17 @@ body {
     background-color: var(--Lightdarkpurple--Primarycolor);
     font-size: var(--md);
   }
+
   .button-google-demo a {
     color: white;
     text-decoration: none;
   }
+
   .todomachine--proyect img {
     width: 70%;
     height: 20%;
   }
+
   .button-git-todomachine {
     text-align: center;
     border-radius: 0%;
@@ -359,10 +372,12 @@ body {
     background-color: var(--olivegreen--Secondarycolor);
     font-size: var(--md);
   }
+
   .button-git-todomachine a {
     color: white;
     text-decoration: none;
   }
+
   .button-todomachine-demo {
     text-align: center;
     border-radius: 0%;
@@ -370,14 +385,17 @@ body {
     background-color: var(--Lightdarkpurple--Primarycolor);
     font-size: var(--md);
   }
+
   .button-todomachine-demo a {
     color: white;
     text-decoration: none;
   }
+
   .yardsale--proyect img {
     width: 70%;
     height: 20%;
   }
+
   .button-git-yardsale {
     text-align: center;
     border-radius: 0%;
@@ -385,10 +403,12 @@ body {
     background-color: var(--olivegreen--Secondarycolor);
     font-size: var(--md);
   }
+
   .button-git-yardsale a {
     color: white;
     text-decoration: none;
   }
+
   .button-yardsale-demo {
     text-align: center;
     border-radius: 0%;
@@ -396,14 +416,17 @@ body {
     background-color: var(--Lightdarkpurple--Primarycolor);
     font-size: var(--md);
   }
+
   .button-yardsale-demo a {
     color: white;
     text-decoration: none;
   }
+
   input::-webkit-input-placeholder {
     font-weight: 900;
     color: white;
   }
+
   form {
     width: 300px;
     padding: 16px;
@@ -411,13 +434,15 @@ body {
     margin: 10px;
     background-color: var(--Dark--Blue--color);
   }
+
   form label {
     width: 72px;
     font-weight: bold;
     display: inline-block;
   }
+
   form input[type=text],
-  form input[type=email] {
+form input[type=email] {
     width: 180px;
     padding: 3px 12px;
     border: 5px solid var(--Lightdarkpurple--Primarycolor);
@@ -426,6 +451,7 @@ body {
     margin: 8px 0;
     display: inline-block;
   }
+
   form input[type=submit] {
     width: 100%;
     padding: 8px 16px;
@@ -437,9 +463,11 @@ body {
     background-color: var(--olivegreen--Secondarycolor);
     font-weight: bold;
   }
+
   form input[type=submit]:hover {
     cursor: pointer;
   }
+
   textarea {
     width: 100%;
     height: 100px;
@@ -451,6 +479,7 @@ body {
     resize: none;
     display: block;
   }
+
   textarea::-webkit-input-placeholder {
     font-weight: 900;
     color: white;
@@ -498,16 +527,6 @@ h1 {
   /* No aplicar margen al último ícono */
 }
 
-.soft-skills h1 {
-  font-size: var(--md);
-}
-
-.soft-skills p {
-  font-size: var(--md);
-  line-height: 1.5rem;
-  text-align: center;
-}
-
 .core-skills {
   display: flex;
   flex-direction: row;
@@ -517,4 +536,5 @@ h1 {
   margin: 0;
   list-style: none;
   color: white;
-}/*# sourceMappingURL=styles.css.map */
+  text-transform: capitalize;
+}

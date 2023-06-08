@@ -48,4 +48,12 @@
             @extend.html-container;
             background-color: #30ABA9;
         }
+        .figma-container{
+            @extend.html-container;
+            background-color: #F24E1E;
+        }
+        .Sass-container{
+            @extend .html-container;
+            background-color: #CC6699;
+        }
 }

@@ -1,0 +1,18 @@
+.soft-skills h1{
+   font-size: var(--md);
+}
+.soft-skills p{
+   font-size: var(--md);
+   line-height: 1.5rem;
+   text-align: center;
+}
+.core-skills{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   font-size: var(--md);
+   margin: 0;
+   list-style: none;
+   color: white;
+}

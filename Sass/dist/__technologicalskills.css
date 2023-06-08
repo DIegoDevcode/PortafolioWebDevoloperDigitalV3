@@ -19,7 +19,7 @@
   color: white;
   text-transform: capitalize;
 }
-.language-programming .html-container, .language-programming .React-container, .language-programming .Javascript-container, .language-programming .GitHub-container, .language-programming .container-css {
+.language-programming .html-container, .language-programming .Sass-container, .language-programming .figma-container, .language-programming .React-container, .language-programming .Javascript-container, .language-programming .GitHub-container, .language-programming .container-css {
   background-color: #E34C26;
   margin-top: 10px;
   margin-right: 10px;
@@ -29,7 +29,7 @@
   text-align: center;
   font-size: 25px;
 }
-.language-programming .html-container i, .language-programming .React-container i, .language-programming .Javascript-container i, .language-programming .GitHub-container i, .language-programming .container-css i {
+.language-programming .html-container i, .language-programming .Sass-container i, .language-programming .figma-container i, .language-programming .React-container i, .language-programming .Javascript-container i, .language-programming .GitHub-container i, .language-programming .container-css i {
   font-size: 23px;
   margin-right: 10px;
 }
@@ -44,4 +44,10 @@
 }
 .language-programming .React-container {
   background-color: #30ABA9;
+}
+.language-programming .figma-container {
+  background-color: #F24E1E;
+}
+.language-programming .Sass-container {
+  background-color: #CC6699;
 }
