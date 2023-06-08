@@ -8,51 +8,40 @@
   text-align: center;
 }
 
-/*.table{
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
-/*  grid-gap: 10px; /* Espacio entre las columnas */
-/* justify-items: center; /* Centrar horizontalmente las columnas */
-/* align-items: center; /* Centrar verticalmente las columnas */
-/* justify-content: center;
-} */
 .language-programming {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   font-size: var(--md);
-  margin: 0 auto;
+  margin: 0;
   list-style: none;
   color: white;
   text-transform: capitalize;
 }
-.language-programming span {
-  padding: 25px;
-}
-.language-programming i {
+.language-programming .html-container, .language-programming .React-container, .language-programming .Javascript-container, .language-programming .GitHub-container, .language-programming .container-css {
+  background-color: #E34C26;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  width: 130px;
   height: 30px;
-  margin: 10px;
-  font-size: var(--md);
-  width: 10px;
+  text-align: center;
+  font-size: 25px;
 }
-
-.fa-html5 {
-  color: #E34C26;
-  height: 30px;
-  width: 40px;
-  font-size: 40px;
+.language-programming .html-container i, .language-programming .React-container i, .language-programming .Javascript-container i, .language-programming .GitHub-container i, .language-programming .container-css i {
+  font-size: 23px;
+  margin-right: 10px;
 }
-
-.fa-css3-alt {
-  color: #264DE4;
-  width: 40px;
-  height: 30px;
-  font-size: 40px;
+.language-programming .container-css {
+  background-color: #264DE4;
 }
-
-.fa-square-github {
-  width: 40px;
-  height: 30px;
-  font-size: 40px;
+.language-programming .GitHub-container {
+  background-color: #171515;
+}
+.language-programming .Javascript-container {
+  background-color: #E5D41F;
+}
+.language-programming .React-container {
+  background-color: #30ABA9;
 }
