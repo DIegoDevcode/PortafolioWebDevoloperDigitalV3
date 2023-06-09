@@ -1,18 +1,19 @@
-.soft-skills h1{
+.title-softskills{
    font-size: var(--md);
 }
 .soft-skills p{
    font-size: var(--md);
    line-height: 1.5rem;
    text-align: center;
+   margin: 10px;
+   margin-right: 10px;
 }
-.core-skills{
+.icons-container{
    display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: center;
-   font-size: var(--md);
-   margin: 0;
    list-style: none;
    color: white;
+   text-transform: capitalize;
 }

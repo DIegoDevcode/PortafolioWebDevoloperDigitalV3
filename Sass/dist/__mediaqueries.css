@@ -1,7 +1,5 @@
-@media screen and (min-width: 300px) and (max-width:1024px){
-}
 /*@media screen and (min-width: 1024px) {
-    
+
     .google-proyect img{
         width: 70%;
         height: 20%;
@@ -17,7 +15,7 @@
         color: white;
         text-decoration: none;
     }
-    
+
     .button-google-demo{
         text-align: center;
         border-radius: 0%;
@@ -40,12 +38,12 @@
         background-color:var(--olivegreen--Secondarycolor);
         font-size: var(--md);
     }
-    
+
     .button-git-todomachine a{
         color: white;
         text-decoration: none;
     }
-    
+
     .button-todomachine-demo{
         text-align: center;
         border-radius: 0%;
@@ -68,12 +66,12 @@
         background-color:var(--olivegreen--Secondarycolor);
         font-size: var(--md);
     }
-    
+
     .button-git-yardsale a{
         color: white;
         text-decoration: none;
     }
-    
+
     .button-yardsale-demo{
         text-align: center;
         border-radius: 0%;
