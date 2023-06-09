@@ -133,6 +133,8 @@ h1 {
   font-size: var(--md);
   font-weight: 500;
   margin: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 .google-proyect img {
   width: 400px;
@@ -172,6 +174,8 @@ h1 {
 .todomachine--proyect p {
   font-size: var(--md);
   font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 .todomachine--proyect img {
   width: 400px;
