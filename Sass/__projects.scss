@@ -28,9 +28,7 @@
         }
     
         img {
-            width:  400px;
-            padding-left: 10px;
-            margin-left: 160px;            
+            @include estilos-img-desktop;           
         }
     
         .button-git-google {
@@ -59,28 +57,16 @@
 /* Estilos de TodoMachine */
 .todomachine--proyect{
     h2{
-        font-size: 1.5rem;
-        margin-left: 10px;
+        @include Estilos-titulo-h2;
     }
     p{
-        font-size: var(--md);
-        font-weight: 500;
-        margin-bottom: 15px;
-        margin-top: 10px;
+        @include Estilos-párrafos-secundarios;
     }
     img{
-        width:  400px;
-        padding-left: 10px;
-        margin-right: 140px;
-        margin-left: 150px; 
+        @include estilos-img-desktop;           
     }
     .button-git-todomachine{
-        text-align: center;
-        border-radius: 30px;
-        width: 50%;
-        margin-left: 160px;            
-        background-color: var(--olivegreen--Secondarycolor);
-        font-size: var(--md);
+        @include estilos-botones-primarios;
     }
     a{
         color: white;
@@ -110,11 +96,7 @@ h2{
     @include estilos-img-desktop;
 }
 .button-git-yardsale{
-    text-align: center;
-    border-radius: 0%;
-    width: 100%;
-    background-color:var(--olivegreen--Secondarycolor);
-    font-size: var(--md);
+    @include estilos-botones-primarios;
 }
 
 .button-git-yardsale a{
