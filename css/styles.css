@@ -107,340 +107,208 @@ h1 {
   background-color: #CC6699;
 }
 
-/*.start-project{
-    h1{
-        font-family:sans-serif ;
-        font-size: var(--lg);
-        font-weight: bold;
-    }
-    p{
-        font-family:sans-serif ;
-        font-size: var(--md);
-        font-weight: 100;
-    }
+.start-project h1 {
+  font-family: sans-serif;
+  font-size: var(--lg);
+  font-weight: bold;
+}
+.start-project p {
+  font-family: sans-serif;
+  font-size: var(--md);
+  font-weight: 100;
 }
 
-.table-proyects{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
-/* Estilos de google clone 
-.google-proyect{
-        h2{
-            @include Estilos-titulo-h2;
-        }
+.table-proyects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
+  gap: 5px;
+}
 
-        p {
-            @include Estilos-párrafos-secundarios;
-        }
+/* Estilos de google clone */
+.google-proyect h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.google-proyect p {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.google-proyect img {
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
+}
+.google-proyect .button-git {
+  text-align: center;
+  border-radius: 30px;
+  width: 50%;
+  margin-left: 160px;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+.google-proyect .button-git a {
+  color: white;
+  text-decoration: none;
+}
+.google-proyect .button-demo {
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 160px;
+  width: 50%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+.google-proyect .button-demo a {
+  color: white;
+  text-decoration: none;
+}
 
-        img {
-            @include estilos-img-desktop;           
-        }
+/* Estilos de TodoMachine*/
+.todomachine--proyect h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.todomachine--proyect p {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.todomachine--proyect img {
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
+}
+.todomachine--proyect .button-git {
+  text-align: center;
+  border-radius: 30px;
+  width: 50%;
+  margin-left: 160px;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+.todomachine--proyect a {
+  color: white;
+  text-decoration: none;
+}
+.todomachine--proyect .button-demo {
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 160px;
+  width: 50%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+.todomachine--proyect a {
+  color: white;
+  text-decoration: none;
+}
 
-        .button-git-google {
-            @include estilos-botones-primarios;
+/*Estilos de Yard Sale online */
+.yardsale--proyect h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.yardsale--proyect p {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.yardsale--proyect img {
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
+}
+.yardsale--proyect .button-git {
+  text-align: center;
+  border-radius: 30px;
+  width: 50%;
+  margin-left: 160px;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+.yardsale--proyect .button-git a {
+  color: white;
+  text-decoration: none;
+}
+.yardsale--proyect .button-demo {
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 160px;
+  width: 50%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+.yardsale--proyect .button-demo a {
+  color: white;
+  text-decoration: none;
+}
 
-            a {
-                color: white;
-                text-decoration: none;
-            }
-        }
+/*Estilos de Eco-store */
+.eco-store-proyect h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.eco-store-proyect p {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.eco-store-proyect img {
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
+}
+.eco-store-proyect .button-git {
+  text-align: center;
+  border-radius: 30px;
+  width: 50%;
+  margin-left: 160px;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+.eco-store-proyect .button-git a {
+  color: white;
+  text-decoration: none;
+}
+.eco-store-proyect .button-demo {
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 160px;
+  width: 50%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+.eco-store-proyect .button-demo a {
+  color: white;
+  text-decoration: none;
+}
 
-        .button-google-demo {
-            text-align: center;
-            border-radius: 30px;
-            margin-left: 160px;            
-            width: 50%;
-            background-color: var(--Lightdarkpurple--Primarycolor);
-            font-size: var(--md);
-
-            a {
-                color: white;
-                text-decoration: none;
-            }
-        }
-    }*/
-/* Estilos de TodoMachine
-.todomachine--proyect{
-    h2{
-        @include Estilos-titulo-h2;
-    }
-    p{
-        @include Estilos-párrafos-secundarios;
-    }
-    img{
-        @include estilos-img-desktop;           
-    }
-    .button-git-todomachine{
-        @include estilos-botones-primarios;
-    }
-    a{
-        color: white;
-        text-decoration: none;
-    }
-    .button-todomachine-demo{
-        text-align: center;
-            border-radius: 30px;
-            margin-left: 160px;            
-            width: 50%;
-            background-color: var(--Lightdarkpurple--Primarycolor);
-            font-size: var(--md);
-    }
-    a{
-        color: white;
-        text-decoration: none;
-    }
-}  */
-/*Estilos de Yard Sale online 
-.yardsale--proyect{
-
-    h2{
-        @include Estilos-titulo-h2;
-    }
-    .yardsale--proyect p{
-        @include Estilos-párrafos-secundarios;
-    }
-    .yardsale--proyect img{
-        @include estilos-img-desktop;
-    }
-    .button-git-yardsale{
-        @include estilos-botones-primarios;
-    }
-
-    .button-git-yardsale a{
-        color: white;
-        text-decoration: none;
-    }
-
-    .button-yardsale-demo{
-        text-align: center;
-        border-radius: 30px;
-        margin-left: 160px;            
-        width: 50%;
-        background-color: var(--Lightdarkpurple--Primarycolor);
-        font-size: var(--md);
-    }
-    .button-yardsale-demo a{
-        color: white;
-        text-decoration: none;
-    }
-}*/
 .end p {
   text-align: center;
   font-size: var(--sm);
 }
 
-@media screen and (width: 1366px) {
-  /* Estilos de google clone */
-  .google-proyect h2 {
-    padding: 10px;
-    margin-top: 30px;
-  }
-  .google-proyect p {
-    font-size: var(--md);
-    font-weight: 300;
-    margin-bottom: 15px;
-    margin-top: 10px;
-  }
-  .google-proyect img {
-    width: 400px;
-    padding-left: 10px;
-    margin-right: 140px;
-    margin-left: 150px;
-  }
-  .google-proyect .button-git-google {
-    text-align: center;
-    border-radius: 30px;
-    width: 50%;
-    margin-left: 160px;
-    background-color: var(--olivegreen--Secondarycolor);
-    font-size: var(--md);
-  }
-  .google-proyect .button-git-google a {
-    color: white;
-    text-decoration: none;
-  }
-  .google-proyect .button-google-demo {
-    text-align: center;
-    border-radius: 30px;
-    margin-left: 160px;
-    width: 50%;
-    background-color: var(--Lightdarkpurple--Primarycolor);
-    font-size: var(--md);
-  }
-  .google-proyect .button-google-demo a {
-    color: white;
-    text-decoration: none;
-  }
-  /* Estilos de TodoMachine */
-  .todomachine--proyect h2 {
-    font-size: 1.5rem;
-    margin-left: 10px;
-  }
-  .todomachine--proyect p {
-    font-size: var(--md);
-    font-weight: 300;
-    margin-bottom: 15px;
-    margin-top: 10px;
-  }
-  .todomachine--proyect img {
-    width: 400px;
-    padding-left: 10px;
-    margin-right: 140px;
-    margin-left: 150px;
-  }
-  .todomachine--proyect .button-git-todomachine {
-    text-align: center;
-    border-radius: 30px;
-    width: 50%;
-    margin-left: 160px;
-    background-color: var(--olivegreen--Secondarycolor);
-    font-size: var(--md);
-  }
-  .todomachine--proyect a {
-    color: white;
-    text-decoration: none;
-  }
-  .todomachine--proyect .button-todomachine-demo {
-    text-align: center;
-    border-radius: 30px;
-    margin-left: 160px;
-    width: 50%;
-    background-color: var(--Lightdarkpurple--Primarycolor);
-    font-size: var(--md);
-  }
-  .todomachine--proyect a {
-    color: white;
-    text-decoration: none;
-  }
-  /*Estilos de Yard Sale online */
-  .yardsale--proyect h2 {
-    font-size: 1.5rem;
-    margin-left: 10px;
-  }
-  .yardsale--proyect .yardsale--proyect p {
-    font-size: var(--md);
-    font-weight: 300;
-    margin-bottom: 15px;
-    margin-top: 10px;
-  }
-  .yardsale--proyect .yardsale--proyect img {
-    width: 400px;
-    padding-left: 10px;
-    margin-right: 140px;
-    margin-left: 150px;
-  }
-  .yardsale--proyect .button-git-yardsale {
-    text-align: center;
-    border-radius: 30px;
-    width: 50%;
-    margin-left: 160px;
-    background-color: var(--olivegreen--Secondarycolor);
-    font-size: var(--md);
-  }
-  .yardsale--proyect .button-git-yardsale a {
-    color: white;
-    text-decoration: none;
-  }
-  .yardsale--proyect .button-yardsale-demo {
-    text-align: center;
-    border-radius: 30px;
-    margin-left: 160px;
-    width: 50%;
-    background-color: var(--Lightdarkpurple--Primarycolor);
-    font-size: var(--md);
-  }
-  .yardsale--proyect .button-yardsale-demo a {
-    color: white;
-    text-decoration: none;
-  }
-}
-/*@media screen and (min-width: 1024px) {
-
-    .google-proyect img{
-        width: 70%;
-        height: 20%;
-    }
-    .button-git-google{
-        text-align: center;
-        border-radius: 0%;
-        width: 70%;
-        background-color:var(--olivegreen--Secondarycolor);
-        font-size: var(--md);
-    }
-    .button-git-google a{
-        color: white;
-        text-decoration: none;
-    }
-
-    .button-google-demo{
-        text-align: center;
-        border-radius: 0%;
-        width: 70%;
-        background-color: var(--Lightdarkpurple--Primarycolor);
-        font-size: var(--md);
-    }
-    .button-google-demo a{
-        color: white;
-        text-decoration: none;
-    }
-    .todomachine--proyect img{
-        width: 70%;
-        height: 20%;
-    }
-    .button-git-todomachine{
-        text-align: center;
-        border-radius: 0%;
-        width: 70%;
-        background-color:var(--olivegreen--Secondarycolor);
-        font-size: var(--md);
-    }
-
-    .button-git-todomachine a{
-        color: white;
-        text-decoration: none;
-    }
-
-    .button-todomachine-demo{
-        text-align: center;
-        border-radius: 0%;
-        width: 70%;
-        background-color: var(--Lightdarkpurple--Primarycolor);
-        font-size: var(--md);
-    }
-    .button-todomachine-demo a{
-        color: white;
-        text-decoration: none;
-    }
-    .yardsale--proyect img{
-        width: 70%;
-        height: 20%;
-    }
-    .button-git-yardsale{
-        text-align: center;
-        border-radius: 0%;
-        width: 70%;
-        background-color:var(--olivegreen--Secondarycolor);
-        font-size: var(--md);
-    }
-
-    .button-git-yardsale a{
-        color: white;
-        text-decoration: none;
-    }
-
-    .button-yardsale-demo{
-        text-align: center;
-        border-radius: 0%;
-        width: 70%;
-        background-color: var(--Lightdarkpurple--Primarycolor);
-        font-size: var(--md);
-    }
-    .button-yardsale-demo a{
-        color: white;
-        text-decoration: none;
-    }
-} */
 h1 {
   display: flex;
   text-align: center;

@@ -30,14 +30,17 @@ h1{
 
 @mixin Estilos-titulo-h2{
     font-size: 1.5rem;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 @mixin Estilos-párrafos-secundarios{
     font-size: var(--md);
         font-weight: 300;
-        margin-bottom: 15px;
         margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 40px;
 }
 @mixin estilos-img-desktop {
         width:  400px;
