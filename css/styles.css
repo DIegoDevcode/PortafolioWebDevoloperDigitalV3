@@ -209,13 +209,16 @@ h1 {
 }
 
 /*Estilos de Yard Sale online */
-.yardsale--proyect h2 {
-  font-size: var(--lg);
+h2 {
+  font-size: 1.5rem;
+  margin-left: 10px;
 }
 
 .yardsale--proyect p {
   font-size: var(--md);
   font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .yardsale--proyect img {

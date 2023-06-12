@@ -110,12 +110,11 @@
     }
 } 
 /*Estilos de Yard Sale online */
-.yardsale--proyect h2{
-        font-size: var(--lg);
+h2{
+    @include Estilos-titulo-h2;
 }
 .yardsale--proyect p{
-    font-size: var(--md);
-    font-weight: 500;
+    @include Estilos-parrafos-secundarios;
 }
 .yardsale--proyect img{
     width: 100%;

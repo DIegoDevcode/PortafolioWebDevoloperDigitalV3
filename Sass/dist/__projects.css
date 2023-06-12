@@ -60,7 +60,7 @@
 }
 
 /* Estilos de TodoMachine */
-.todomachine--proyect h2 {
+.todomachine--proyect .h2 {
   font-size: 1.5rem;
   margin-left: 10px;
 }
@@ -102,10 +102,6 @@
 }
 
 /*Estilos de Yard Sale online */
-.yardsale--proyect h2 {
-  font-size: var(--lg);
-}
-
 .yardsale--proyect p {
   font-size: var(--md);
   font-weight: 500;
