@@ -1,4 +1,4 @@
-.start-project{
+/*.start-project{
     h1{
         font-family:sans-serif ;
         font-size: var(--lg);
@@ -14,10 +14,7 @@
 .table-proyects{
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
-        grid-gap: 20px; /* Espacio entre los elementos */
-}
-
-/* Estilos de google clone */
+/* Estilos de google clone 
 .google-proyect{
         h2{
             @include Estilos-titulo-h2;
@@ -53,8 +50,8 @@
                 text-decoration: none;
             }
         }
-    }
-/* Estilos de TodoMachine */
+    }*/
+/* Estilos de TodoMachine
 .todomachine--proyect{
     h2{
         @include Estilos-titulo-h2;
@@ -84,34 +81,38 @@
         color: white;
         text-decoration: none;
     }
-} 
-/*Estilos de Yard Sale online */
-h2{
-    @include Estilos-titulo-h2;
-}
-.yardsale--proyect p{
-    @include Estilos-párrafos-secundarios;
-}
-.yardsale--proyect img{
-    @include estilos-img-desktop;
-}
-.button-git-yardsale{
-    @include estilos-botones-primarios;
-}
+}  */
+/*Estilos de Yard Sale online 
+.yardsale--proyect{
 
-.button-git-yardsale a{
-    color: white;
-    text-decoration: none;
-}
-
-.button-yardsale-demo{
-    text-align: center;
-    border-radius: 0%;
-    width: 100%;
-    background-color: var(--Lightdarkpurple--Primarycolor);
-    font-size: var(--md);
-}
-.button-yardsale-demo a{
-    color: white;
-    text-decoration: none;
-}
+    h2{
+        @include Estilos-titulo-h2;
+    }
+    .yardsale--proyect p{
+        @include Estilos-párrafos-secundarios;
+    }
+    .yardsale--proyect img{
+        @include estilos-img-desktop;
+    }
+    .button-git-yardsale{
+        @include estilos-botones-primarios;
+    }
+    
+    .button-git-yardsale a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .button-yardsale-demo{
+        text-align: center;
+        border-radius: 30px;
+        margin-left: 160px;            
+        width: 50%;
+        background-color: var(--Lightdarkpurple--Primarycolor);
+        font-size: var(--md);
+    }
+    .button-yardsale-demo a{
+        color: white;
+        text-decoration: none;
+    }
+}*/

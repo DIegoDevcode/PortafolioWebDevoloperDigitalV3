@@ -1,4 +1,107 @@
-@media screen and (min-width: 300px) and (max-width:1024px){
+@media screen and (width:1366px){
+    /* Estilos de google clone */
+.google-proyect{
+    h2{
+        padding: 10px;
+        margin-top: 30px
+    }
+
+    p {
+        @include Estilos-párrafos-secundarios;
+    }
+
+    img {
+        @include estilos-img-desktop;           
+    }
+
+    .button-git-google {
+        @include estilos-botones-primarios;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .button-google-demo {
+        text-align: center;
+        border-radius: 30px;
+        margin-left: 160px;            
+        width: 50%;
+        background-color: var(--Lightdarkpurple--Primarycolor);
+        font-size: var(--md);
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+/* Estilos de TodoMachine */
+.todomachine--proyect{
+h2{
+    @include Estilos-titulo-h2;
+}
+p{
+    @include Estilos-párrafos-secundarios;
+}
+img{
+    @include estilos-img-desktop;           
+}
+.button-git-todomachine{
+    @include estilos-botones-primarios;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.button-todomachine-demo{
+    text-align: center;
+        border-radius: 30px;
+        margin-left: 160px;            
+        width: 50%;
+        background-color: var(--Lightdarkpurple--Primarycolor);
+        font-size: var(--md);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+} 
+/*Estilos de Yard Sale online */
+.yardsale--proyect{
+
+h2{
+    @include Estilos-titulo-h2;
+}
+.yardsale--proyect p{
+    @include Estilos-párrafos-secundarios;
+}
+.yardsale--proyect img{
+    @include estilos-img-desktop;
+}
+.button-git-yardsale{
+    @include estilos-botones-primarios;
+}
+
+.button-git-yardsale a{
+    color: white;
+    text-decoration: none;
+}
+
+.button-yardsale-demo{
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 160px;            
+    width: 50%;
+    background-color: var(--Lightdarkpurple--Primarycolor);
+    font-size: var(--md);
+}
+.button-yardsale-demo a{
+    color: white;
+    text-decoration: none;
+}
+}
 }
 /*@media screen and (min-width: 1024px) {
     
