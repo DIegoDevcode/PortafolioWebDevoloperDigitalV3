@@ -13,23 +13,18 @@
 
 .table-proyects{
         display: grid;
-        grid-template-columns: repeat(2, 2fr); /* Dos columnas de igual ancho */
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
         grid-gap: 20px; /* Espacio entre los elementos */
 }
 
 /* Estilos de google clone */
 .google-proyect{
         h2{
-            font-size: 1.5rem;
-            margin: 10px;
+            @include Estilos-titulo-h2;
         }
     
         p {
-            font-size: var(--md);
-            font-weight: 500;
-            margin: 10px;
-            margin-bottom: 15px;
-            margin-top: 10px;
+            @include Estilos-párrafos-secundarios;
         }
     
         img {
@@ -39,12 +34,7 @@
         }
     
         .button-git-google {
-            text-align: center;
-            border-radius: 30px;
-            width: 50%;
-            margin-left: 160px;            
-            background-color: var(--olivegreen--Secondarycolor);
-            font-size: var(--md);
+            @include estilos-botones-primarios;
     
             a {
                 color: white;
@@ -114,11 +104,10 @@ h2{
     @include Estilos-titulo-h2;
 }
 .yardsale--proyect p{
-    @include Estilos-parrafos-secundarios;
+    @include Estilos-párrafos-secundarios;
 }
 .yardsale--proyect img{
-    width: 100%;
-    height: 20%;
+    @include estilos-img-desktop;
 }
 .button-git-yardsale{
     text-align: center;

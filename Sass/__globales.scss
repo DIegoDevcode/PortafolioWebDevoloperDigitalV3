@@ -33,9 +33,24 @@ h1{
     margin-left: 10px;
 }
 
-@mixin Estilos-parrafos-secundarios{
+@mixin Estilos-párrafos-secundarios{
     font-size: var(--md);
         font-weight: 500;
         margin-bottom: 15px;
         margin-top: 10px;
+}
+@mixin estilos-img-desktop {
+        width:  400px;
+        padding-left: 10px;
+        margin-right: 140px;
+        margin-left: 150px; 
+}
+
+@mixin estilos-botones-primarios{
+    text-align: center;
+    border-radius: 30px;
+    width: 50%;
+    margin-left: 160px;            
+    background-color: var(--olivegreen--Secondarycolor);
+    font-size: var(--md);
 }

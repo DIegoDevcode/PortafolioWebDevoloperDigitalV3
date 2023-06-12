@@ -120,19 +120,18 @@ h1 {
 
 .table-proyects {
   display: grid;
-  grid-template-columns: repeat(2, 2fr); /* Dos columnas de igual ancho */
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
   grid-gap: 20px; /* Espacio entre los elementos */
 }
 
 /* Estilos de google clone */
 .google-proyect h2 {
   font-size: 1.5rem;
-  margin: 10px;
+  margin-left: 10px;
 }
 .google-proyect p {
   font-size: var(--md);
   font-weight: 500;
-  margin: 10px;
   margin-bottom: 15px;
   margin-top: 10px;
 }
@@ -222,8 +221,10 @@ h2 {
 }
 
 .yardsale--proyect img {
-  width: 100%;
-  height: 20%;
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
 }
 
 .button-git-yardsale {
