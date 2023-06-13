@@ -304,6 +304,140 @@ h1 {
   text-decoration: none;
 }
 
+/*AutoBlog-Chatgpt-proyect*/
+.AutoBlog-Chatgpt-proyect h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.AutoBlog-Chatgpt-proyect p {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.AutoBlog-Chatgpt-proyect img {
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
+}
+.AutoBlog-Chatgpt-proyect .button-git {
+  text-align: center;
+  border-radius: 30px;
+  width: 50%;
+  margin-left: 160px;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+.AutoBlog-Chatgpt-proyect .button-git a {
+  color: white;
+  text-decoration: none;
+}
+.AutoBlog-Chatgpt-proyect .button-demo {
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 160px;
+  width: 50%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+.AutoBlog-Chatgpt-proyect .button-demo a {
+  color: white;
+  text-decoration: none;
+}
+
+/*best-food-grid-proyect*/
+.best-food-grid-proyect h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.best-food-grid-proyect p {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.best-food-grid-proyect img {
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
+}
+.best-food-grid-proyect .button-git {
+  text-align: center;
+  border-radius: 30px;
+  width: 50%;
+  margin-left: 160px;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+.best-food-grid-proyect .button-git a {
+  color: white;
+  text-decoration: none;
+}
+.best-food-grid-proyect .button-demo {
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 160px;
+  width: 50%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+.best-food-grid-proyect .button-demo a {
+  color: white;
+  text-decoration: none;
+}
+
+.Batabit-proyect h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.Batabit-proyect p {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.Batabit-proyect img {
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
+}
+.Batabit-proyect .button-git {
+  text-align: center;
+  border-radius: 30px;
+  width: 50%;
+  margin-left: 160px;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+.Batabit-proyect .button-git a {
+  color: white;
+  text-decoration: none;
+}
+.Batabit-proyect .button-demo {
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 160px;
+  width: 50%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+.Batabit-proyect .button-demo a {
+  color: white;
+  text-decoration: none;
+}
+
 .end p {
   text-align: center;
   font-size: var(--sm);

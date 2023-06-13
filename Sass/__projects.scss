@@ -150,3 +150,103 @@
             text-decoration: none;
         }
     }
+
+    /*AutoBlog-Chatgpt-proyect*/
+    .AutoBlog-Chatgpt-proyect{
+        h2{
+            @include Estilos-titulo-h2;
+        }
+        p{
+            @include Estilos-párrafos-secundarios;
+        }
+        img{
+            @include estilos-img-desktop;
+        }
+        .button-git{
+            @include estilos-botones-primarios;
+        }
+        
+        .button-git a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        .button-demo{
+            text-align: center;
+            border-radius: 30px;
+            margin-left: 160px;            
+            width: 50%;
+            background-color: var(--Lightdarkpurple--Primarycolor);
+            font-size: var(--md);
+        }
+        .button-demo a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+        /*best-food-grid-proyect*/
+        .best-food-grid-proyect{
+            h2{
+                @include Estilos-titulo-h2;
+            }
+            p{
+                @include Estilos-párrafos-secundarios;
+            }
+            img{
+                @include estilos-img-desktop;
+            }
+            .button-git{
+                @include estilos-botones-primarios;
+            }
+            
+            .button-git a{
+                color: white;
+                text-decoration: none;
+            }
+            
+            .button-demo{
+                text-align: center;
+                border-radius: 30px;
+                margin-left: 160px;            
+                width: 50%;
+                background-color: var(--Lightdarkpurple--Primarycolor);
+                font-size: var(--md);
+            }
+            .button-demo a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        .Batabit-proyect{
+            h2{
+                @include Estilos-titulo-h2;
+            }
+            p{
+                @include Estilos-párrafos-secundarios;
+            }
+            img{
+                @include estilos-img-desktop;
+            }
+            .button-git{
+                @include estilos-botones-primarios;
+            }
+            
+            .button-git a{
+                color: white;
+                text-decoration: none;
+            }
+            
+            .button-demo{
+                text-align: center;
+                border-radius: 30px;
+                margin-left: 160px;            
+                width: 50%;
+                background-color: var(--Lightdarkpurple--Primarycolor);
+                font-size: var(--md);
+            }
+            .button-demo a{
+                color: white;
+                text-decoration: none;
+            }
+        }
