@@ -394,6 +394,7 @@ h1 {
   text-decoration: none;
 }
 
+/*Batabit proyect*/
 .Batabit-proyect h2 {
   font-size: 1.5rem;
   margin-top: 10px;
@@ -434,6 +435,58 @@ h1 {
   font-size: var(--md);
 }
 .Batabit-proyect .button-demo a {
+  color: white;
+  text-decoration: none;
+}
+
+.challenge h1 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+/*Qr-componente-main proyect*/
+.qr-componente-main-proyect h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.qr-componente-main-proyect p {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.qr-componente-main-proyect img {
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
+}
+.qr-componente-main-proyect .button-git {
+  text-align: center;
+  border-radius: 30px;
+  width: 50%;
+  margin-left: 160px;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+.qr-componente-main-proyect .button-git a {
+  color: white;
+  text-decoration: none;
+}
+.qr-componente-main-proyect .button-demo {
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 160px;
+  width: 50%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+.qr-componente-main-proyect .button-demo a {
   color: white;
   text-decoration: none;
 }
