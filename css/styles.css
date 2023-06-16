@@ -6,10 +6,10 @@
   --md: 18px;
   --sm: 1.1rem;
   /*Colores*/
-  --Dark--Blue--color:#012B61;
+  --Dark--Blue--color: #253b6e;
   --olivegreen--Secondarycolor:#02880B;
-  --Lightdarkpurple--Primarycolor:#88027F;
-  --color-secondary: #A88513;
+  --Lightdarkpurple--Primarycolor:#389168;
+  --color-secondary: #dfb361;
 }
 
 * {
@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #012B61;
+  background-color: var(--Dark--Blue--color);
   color: white;
   font-size: 62.5%;
   font-family: sans-serif;
@@ -149,7 +149,7 @@ h1 {
   border-radius: 30px;
   width: 52%;
   margin-left: 160px;
-  background-color: var(--olivegreen--Secondarycolor);
+  background-color: var(--color-secondary);
   font-size: var(--md);
 }
 .google-proyect .button-git a {
@@ -194,7 +194,7 @@ h1 {
   border-radius: 30px;
   width: 49.2%;
   margin-left: 160px;
-  background-color: var(--olivegreen--Secondarycolor);
+  background-color: var(--color-secondary);
   font-size: var(--md);
 }
 .todomachine--proyect a {
@@ -239,7 +239,7 @@ h1 {
   border-radius: 30px;
   width: 49.2%;
   margin-left: 160px;
-  background-color: var(--olivegreen--Secondarycolor);
+  background-color: var(--color-secondary);
   font-size: var(--md);
 }
 .yardsale--proyect .button-git a {
@@ -284,7 +284,7 @@ h1 {
   border-radius: 30px;
   width: 49.2%;
   margin-left: 160px;
-  background-color: var(--olivegreen--Secondarycolor);
+  background-color: var(--color-secondary);
   font-size: var(--md);
 }
 .eco-store-proyect .button-git a {
@@ -329,7 +329,7 @@ h1 {
   border-radius: 30px;
   width: 49.2%;
   margin-left: 160px;
-  background-color: var(--olivegreen--Secondarycolor);
+  background-color: var(--color-secondary);
   font-size: var(--md);
 }
 .AutoBlog-Chatgpt-proyect .button-git a {
@@ -374,7 +374,7 @@ h1 {
   border-radius: 30px;
   width: 49.2%;
   margin-left: 160px;
-  background-color: var(--olivegreen--Secondarycolor);
+  background-color: var(--color-secondary);
   font-size: var(--md);
 }
 .best-food-grid-proyect .button-git a {
@@ -419,7 +419,7 @@ h1 {
   border-radius: 30px;
   width: 49.2%;
   margin-left: 160px;
-  background-color: var(--olivegreen--Secondarycolor);
+  background-color: var(--color-secondary);
   font-size: var(--md);
 }
 .Batabit-proyect .button-git a {
@@ -471,7 +471,7 @@ h1 {
   border-radius: 30px;
   width: 52%;
   margin-left: 160px;
-  background-color: var(--olivegreen--Secondarycolor);
+  background-color: var(--color-secondary);
   font-size: var(--md);
 }
 .qr-componente-main-proyect .button-git a {
@@ -516,7 +516,7 @@ h1 {
   border-radius: 30px;
   width: 52%;
   margin-left: 160px;
-  background-color: var(--olivegreen--Secondarycolor);
+  background-color: var(--color-secondary);
   font-size: var(--md);
 }
 .single-price-component-proyect .button-git a {
