@@ -491,6 +491,51 @@ h1 {
   text-decoration: none;
 }
 
+/*single-price-component-proyect*/
+.single-price-component-proyect h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.single-price-component-proyect p {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.single-price-component-proyect img {
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
+}
+.single-price-component-proyect .button-git {
+  text-align: center;
+  border-radius: 30px;
+  width: 50%;
+  margin-left: 160px;
+  background-color: var(--olivegreen--Secondarycolor);
+  font-size: var(--md);
+}
+.single-price-component-proyect .button-git a {
+  color: white;
+  text-decoration: none;
+}
+.single-price-component-proyect .button-demo {
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 160px;
+  width: 50%;
+  background-color: var(--Lightdarkpurple--Primarycolor);
+  font-size: var(--md);
+}
+.single-price-component-proyect .button-demo a {
+  color: white;
+  text-decoration: none;
+}
+
 .end p {
   text-align: center;
   font-size: var(--sm);
