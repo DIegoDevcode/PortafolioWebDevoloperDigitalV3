@@ -1,68 +1,72 @@
-:root{
-    /*Tamaño de fuentes*/
-    --vlg:2.0rem;
-    --lg:1.3rem;
-    --md: 18px;
-    --sm: 1.1rem;
-    /*Colores*/
-    --Dark--Blue--color: #253b6e;
-    --olivegreen--Secondarycolor:#02880B;
-    --Lightdarkpurple--Primarycolor:#389168;
-    --color-secondary: #dfb361;
+:root {
+  /*Tamaño de fuentes*/
+  --vlg: 2rem;
+  --lg: 1.3rem;
+  --md: 18px;
+  --sm: 1.1rem;
+  /*Colores*/
+  --Dark--Blue--color: #253b6e;
+  --olivegreen--Secondarycolor: #02880b;
+  --Lightdarkpurple--Primarycolor: #389168;
+  --color-secondary: #dfb361;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-
-body{
-    background-color: var(--Dark--Blue--color);
-    color:white;
-    font-size: 62.5%;
-    font-family: sans-serif;
+html {
+  font-size: 62.5%;
 }
 
-h1{
-    padding: 5px;
-    margin-top: 5px;
+body {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  height: 100vh;
+  width: 100vw;
 }
 
-@mixin Estilos-titulo-h2{
-    font-size: 1.5rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 40px;
+h1 {
+  padding: 5px;
+  margin-top: 5px;
 }
 
-@mixin Estilos-párrafos-secundarios{
-    font-size: var(--md);
-        font-weight: 300;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: 40px;
+@mixin Estilos-titulo-h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+@mixin Estilos-párrafos-secundarios {
+  font-size: var(--md);
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
 }
 @mixin estilos-img-desktop {
-        width:  400px;
-        padding-left: 10px;
-        margin-right: 140px;
-        margin-left: 150px; 
+  width: 400px;
+  padding-left: 10px;
+  margin-right: 140px;
+  margin-left: 150px;
 }
 
-@mixin estilos-botones-primarios{
-    text-align: center;
-    border-radius: 30px;
-    width: 52%;
-    margin-left: 160px;            
-    background-color: var(--color-secondary);
-    font-size: var(--md);
+@mixin estilos-botones-primarios {
+  text-align: center;
+  border-radius: 30px;
+  width: 52%;
+  margin-left: 160px;
+  background-color: var(--color-secondary);
+  font-size: var(--md);
 }
 
-@mixin estilos-botones-primarios-segundo-estilo{
-    text-align: center;
-    border-radius: 30px;
-    width: 49.2%;
-    margin-left: 160px;            
-    background-color: var(--color-secondary);
-    font-size: var(--md);
+@mixin estilos-botones-primarios-segundo-estilo {
+  text-align: center;
+  border-radius: 30px;
+  width: 49.2%;
+  margin-left: 160px;
+  background-color: var(--color-secondary);
+  font-size: var(--md);
 }
