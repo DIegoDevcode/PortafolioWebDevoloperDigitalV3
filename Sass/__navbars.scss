@@ -1,13 +1,23 @@
 .header-container {
+  width: 123vw;
+  height: 30rem;
   background-color: darkkhaki;
-  width: 60rem;
-  height: 39rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+.aboutme-container {
+  align-items: center;
 }
 
 .aboutme-container img {
   border-radius: 50%;
-  height: 15rem;
+  height: 15vh;
+  margin-left: 87rem;
+}
+.information {
+  color: black;
+  text-align: center;
+  width: 50%;
+  margin-left: 49rem;
 }
