@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  color: white;
+  color: black;
   font-family: sans-serif;
   font-size: 1.8rem;
   height: 100vh;
@@ -33,6 +33,32 @@ body {
 h1 {
   padding: 5px;
   margin-top: 5px;
+}
+
+.main-container {
+  display: -ms-grid;
+  display: grid;
+}
+
+.Proyect-title {
+  text-align: center;
+}
+
+.Proyect-container {
+  display: -ms-grid;
+  display: grid;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.One-Proyect {
+  width: 50vw;
+  height: 100%;
+}
+.One-Proyect img {
+  width: 50rem;
+  height: 40rem;
 }
 
 .navbar {
@@ -75,24 +101,20 @@ h1 {
   /* Espacio entre los íconos de redes sociales */
 }
 
+.title-me {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
 .aboutme-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .aboutme-container img {
-  border-radius: 45%;
+  border-radius: 0;
   height: 20vh;
   width: 12vw;
   margin-left: 17rem;
@@ -101,7 +123,6 @@ h1 {
 
 .information {
   color: black;
-  text-align: center;
-  width: 50%;
+  width: 50vw;
   margin-left: 17rem;
 }

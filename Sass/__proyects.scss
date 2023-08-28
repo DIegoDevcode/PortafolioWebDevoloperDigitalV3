@@ -1,0 +1,22 @@
+.main-container {
+  display: grid;
+}
+.Proyect-title {
+  text-align: center;
+}
+
+.Proyect-container {
+  display: grid;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.One-Proyect {
+  width: 50vw;
+  height: 100%;
+  img {
+    width: 50rem;
+    height: 40rem;
+  }
+}
