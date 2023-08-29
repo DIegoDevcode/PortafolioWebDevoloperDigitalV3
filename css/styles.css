@@ -47,18 +47,27 @@ h1 {
 .Proyect-container {
   display: -ms-grid;
   display: grid;
-  background-color: black;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  background-color: aqua;
   height: 100%;
   width: 100%;
 }
 
-.One-Proyect {
-  width: 50vw;
+.One-Proyect, .Two-proyect {
+  width: 100%;
   height: 100%;
 }
-.One-Proyect img {
-  width: 50rem;
-  height: 40rem;
+.One-Proyect img, .Two-proyect img {
+  width: 58rem;
+  height: 23rem;
+}
+.One-Proyect h2, .Two-proyect h2 {
+  padding-bottom: 1rem;
+}
+
+.article-description {
+  padding-top: 8rem;
 }
 
 .navbar {
