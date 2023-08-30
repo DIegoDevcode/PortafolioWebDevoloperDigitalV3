@@ -6,11 +6,11 @@
 }
 
 .Proyect-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   background-color: aqua;
   height: 100%;
   width: 100%;
+  flex-direction: row-reverse;
 }
 
 .One-Proyect {
@@ -19,9 +19,12 @@
   img {
     width: 58rem;
     height: 23rem;
+    object-fit: cover;
+    object-position: center;
   }
   h2 {
     padding-bottom: 1rem;
+    text-align: left;
   }
 }
 .article-description {
