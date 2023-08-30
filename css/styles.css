@@ -44,38 +44,69 @@ h1 {
   text-align: center;
 }
 
-.Proyect-container {
+.Proyect-container, .Four-proyect-container, .Three-proyect-container, .Two-proyect-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-color: aqua;
   height: 100%;
   width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-.One-Proyect, .Two-proyect {
+.One-Proyect, .Two-proyect, .Four-proyect, .Three-proyect {
   width: 100%;
   height: 100%;
 }
-.One-Proyect img, .Two-proyect img {
-  width: 58rem;
+.One-Proyect img, .Two-proyect img, .Four-proyect img, .Three-proyect img {
+  width: 68rem;
   height: 23rem;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
 }
-.One-Proyect h2, .Two-proyect h2 {
+.One-Proyect h2, .Two-proyect h2, .Four-proyect h2, .Three-proyect h2 {
   padding-bottom: 1rem;
+  padding-left: 3rem;
   text-align: left;
 }
 
 .article-description {
   padding-top: 8rem;
+  padding-left: 4rem;
+}
+
+.Two-proyect-container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.Two-proyect-container h2 {
+  padding-bottom: 1rem;
+  text-align: right;
+  padding-right: 13rem;
+}
+
+.Three-proyect-container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Four-proyect-container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .navbar {
