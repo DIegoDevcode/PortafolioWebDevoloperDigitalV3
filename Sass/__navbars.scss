@@ -24,28 +24,27 @@
   margin-right: 50px;
   /* Espacio entre los íconos de redes sociales */
 }
-.fa-linkedin{
-  border-radius: 50%;
-}
+
 .title-me {
   text-align: center;
   padding-bottom: 2rem;
 }
 
 .aboutme-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutme-container img {
-  border-radius: 0;
+  border-radius: 50%;
   height: 20vh;
-  width: 12vw;
-  margin-left: 17rem;
+  width: 50vw;
   padding-bottom: 1.5rem;
+  margin-left: 4rem;
 }
 .information {
   color: black;
-  width: 50vw;
-  margin-left: 17rem;
+  width: 70vw;
+  margin-left: 10rem;
 }
