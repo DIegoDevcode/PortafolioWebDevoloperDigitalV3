@@ -1,3 +1,6 @@
+header{
+  width: 100%;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -5,8 +8,6 @@
 }
 
 .logo {
-  margin-right: 10px;
-  /* Espacio entre el logo y los íconos de redes sociales */
   img {
     width: 82px;
     height: 70px;
@@ -16,14 +17,14 @@
 .social-icons {
   display: flex;
   list-style: none;
-  padding: 10px;
   font-size: 4rem;
 }
 
 .social-icons li {
-  margin-right: 50px;
+  margin-right: 15px;
   /* Espacio entre los íconos de redes sociales */
 }
+
 
 .title-me {
   text-align: center;
@@ -31,9 +32,8 @@
 }
 
 .aboutme-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 8rem;
+  width: 50%;
 }
 
 .aboutme-container img {
@@ -41,10 +41,12 @@
   height: 20vh;
   width: 50vw;
   padding-bottom: 1.5rem;
-  margin-left: 4rem;
+  margin-left: 1rem;
 }
 .information {
+  padding-top: 2rem;
   color: black;
-  width: 70vw;
-  margin-left: 10rem;
+  text-align: center;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
 }
