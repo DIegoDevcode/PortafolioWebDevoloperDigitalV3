@@ -26,27 +26,50 @@
     padding-bottom: 3rem;
     padding-left: 1rem;
     padding-top: 2rem;
+    text-align: center;
   }
 }
 
 .article-description-one {
   padding-top: 2rem;
-  width: 37rem;
+  width: 40rem;
   text-align: center;
+  text-justify: auto;
   padding-left: 8px;
   line-height: 2.5rem;
 }
 
 .button-container {
   padding-top: 5px;
+  .button-demo-google {
+    width: 10rem;
+    font-size: 1.8rem;
+    height: 2.3rem;
+    text-align: center;
+  }
+  .button-codigo-google {
+    @extend .button-demo-google;
+  }
 }
 
-.button-demo-google {
-  width: 10rem;
-  font-size: 1.8rem;
-  height: 2.3rem;
-  text-align: center;
+.Two-Proyects {
+  @extend .One-Proyect;
+  img {
+    width: 90vw;
+    margin-left: 20px;
+  }
 }
-.button-codigo-google {
-  @extend .button-demo-google;
+.article-description-two {
+  @extend .article-description-one;
+}
+
+.button-container {
+  padding-top: 5px;
+  .button-demo-Eco-store {
+    @include estilo-principal-botones;
+  }
+
+  .button-codigo-Eco-store {
+    @include estilo-principal-botones;
+  }
 }

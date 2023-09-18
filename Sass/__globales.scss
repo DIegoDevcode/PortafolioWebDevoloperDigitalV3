@@ -70,3 +70,10 @@ h1 {
   background-color: var(--color-secondary);
   font-size: var(--md);
 }
+
+@mixin estilo-principal-botones {
+  width: 10rem;
+  font-size: 1.8rem;
+  height: 2.3rem;
+  text-align: center;
+}
