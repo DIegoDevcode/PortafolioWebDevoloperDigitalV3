@@ -57,24 +57,23 @@ h1 {
           flex-direction: column;
 }
 
-.One-Proyect img, .Two-Proyects img {
+.One-Proyect img, .Three-proyect img, .Two-Proyects img {
   width: 34.8rem;
   height: 22rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.One-Proyect h2, .Two-Proyects h2 {
+.One-Proyect h2, .Three-proyect h2, .Two-Proyects h2 {
   padding-bottom: 3rem;
   padding-left: 1rem;
   padding-top: 2rem;
   text-align: center;
 }
 
-.article-description-one, .article-description-two {
+.article-description-one, .article-description-three, .article-description-two {
   padding-top: 2rem;
-  width: 40rem;
+  width: 90vw;
   text-align: center;
-  text-justify: auto;
   padding-left: 8px;
   line-height: 2.5rem;
 }
@@ -89,8 +88,10 @@ h1 {
   text-align: center;
 }
 .Two-Proyects img {
-  width: 90vw;
+  width: 88vw;
   margin-left: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .button-container {
@@ -103,6 +104,30 @@ h1 {
   text-align: center;
 }
 .button-container .button-codigo-Eco-store {
+  width: 10rem;
+  font-size: 1.8rem;
+  height: 2.3rem;
+  text-align: center;
+}
+
+.Three-proyect img {
+  width: 88vw;
+  margin-left: 20px;
+  height: 20vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.button-container {
+  padding-top: 5px;
+}
+.button-container .button-Travel-demo {
+  width: 10rem;
+  font-size: 1.8rem;
+  height: 2.3rem;
+  text-align: center;
+}
+.button-container .button-codigo-Tavel {
   width: 10rem;
   font-size: 1.8rem;
   height: 2.3rem;

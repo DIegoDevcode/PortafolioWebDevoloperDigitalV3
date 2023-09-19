@@ -32,9 +32,8 @@
 
 .article-description-one {
   padding-top: 2rem;
-  width: 40rem;
+  width: 90vw;
   text-align: center;
-  text-justify: auto;
   padding-left: 8px;
   line-height: 2.5rem;
 }
@@ -55,8 +54,9 @@
 .Two-Proyects {
   @extend .One-Proyect;
   img {
-    width: 90vw;
+    width: 88vw;
     margin-left: 20px;
+    object-fit: cover;
   }
 }
 .article-description-two {
@@ -70,6 +70,30 @@
   }
 
   .button-codigo-Eco-store {
+    @include estilo-principal-botones;
+  }
+}
+
+.Three-proyect {
+  @extend .One-Proyect;
+  img {
+    width: 88vw;
+    margin-left: 20px;
+    height: 20vh;
+    object-fit: cover;
+  }
+}
+.article-description-three {
+  @extend .article-description-one;
+}
+
+.button-container {
+  padding-top: 5px;
+  .button-Travel-demo {
+    @include estilo-principal-botones;
+  }
+
+  .button-codigo-Tavel {
     @include estilo-principal-botones;
   }
 }
