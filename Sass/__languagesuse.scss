@@ -6,6 +6,7 @@
   padding-bottom: 2rem;
 }
 
-ul {
-  display: flex;
+.table-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
