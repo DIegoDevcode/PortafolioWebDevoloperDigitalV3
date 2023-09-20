@@ -50,6 +50,18 @@ h1 {
   grid-template-columns: 1fr 1fr;
 }
 
+li {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+li img {
+  height: 6vh;
+}
+li p {
+  width: 45vw;
+  text-align: center;
+}
+
 .main-container {
   width: 100%;
   height: 100%;
