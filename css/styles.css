@@ -58,7 +58,9 @@ li img {
   height: 6vh;
 }
 li p {
-  width: 45vw;
+  width: 48vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -227,4 +229,8 @@ header {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+}
+
+li p {
+  width: 48vw;
 }

@@ -5,3 +5,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+li {
+  @extend li;
+  p {
+    width: 48vw;
+  }
+}
