@@ -35,7 +35,7 @@ h1 {
   margin-top: 5px;
 }
 
-.tecnologies-introdution {
+.tecnologies-introdution, .soft-skills {
   padding-top: 2rem;
   color: black;
   text-align: center;
@@ -220,4 +220,11 @@ header {
   text-align: center;
   line-height: 2.5rem;
   padding-bottom: 2rem;
+}
+
+.table-soft-skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }

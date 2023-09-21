@@ -1,0 +1,7 @@
+.soft-skills {
+  @extend .tecnologies-introdution;
+}
+.table-soft-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
