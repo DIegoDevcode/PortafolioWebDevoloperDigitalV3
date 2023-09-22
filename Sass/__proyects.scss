@@ -17,9 +17,10 @@
 
 .One-Proyect {
   img {
-    width: 34.8rem;
+    width: 90vw;
     height: 22rem;
     object-fit: cover;
+    padding-left: 12px;
   }
 
   h2 {
@@ -88,7 +89,7 @@
 }
 
 .button-container {
-  padding-top: 5px;
+  padding-top: 15px;
   .button-Travel-demo {
     @include estilo-principal-botones;
   }

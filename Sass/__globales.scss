@@ -32,48 +32,11 @@ h1 {
   margin-top: 5px;
 }
 
-@mixin Estilos-titulo-h2 {
-  font-size: 1.5rem;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 40px;
-}
-
-@mixin Estilos-párrafos-secundarios {
-  font-size: var(--md);
-  font-weight: 300;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 40px;
-}
-@mixin estilos-img-desktop {
-  width: 400px;
-  padding-left: 10px;
-  margin-right: 140px;
-  margin-left: 150px;
-}
-
-@mixin estilos-botones-primarios {
-  text-align: center;
-  border-radius: 30px;
-  width: 52%;
-  margin-left: 160px;
-  background-color: var(--color-secondary);
-  font-size: var(--md);
-}
-
-@mixin estilos-botones-primarios-segundo-estilo {
-  text-align: center;
-  border-radius: 30px;
-  width: 49.2%;
-  margin-left: 160px;
-  background-color: var(--color-secondary);
-  font-size: var(--md);
-}
-
 @mixin estilo-principal-botones {
   width: 10rem;
   font-size: 1.8rem;
   height: 2.3rem;
   text-align: center;
 }
+
+$layout-breakpoint-very-small: 320px;
