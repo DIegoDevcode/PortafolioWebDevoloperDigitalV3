@@ -1,13 +1,13 @@
 .soft-skills {
-  @extend .tecnologies-introdution;
+  text-align: center;
 }
 .table-soft-skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
-
 li {
-  @extend li;
   p {
     width: 48vw;
   }

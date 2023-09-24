@@ -35,7 +35,7 @@ h1 {
   margin-top: 5px;
 }
 
-.tecnologies-introdution, .soft-skills {
+.tecnologies-introdution {
   padding-top: 2rem;
   color: black;
   text-align: center;
@@ -58,10 +58,10 @@ li img {
   height: 6vh;
 }
 li p {
+  text-align: center;
   width: 48vw;
   padding-top: 10px;
   padding-bottom: 10px;
-  text-align: center;
 }
 
 .visual-studio {
@@ -175,6 +175,37 @@ footer p {
 }
 
 /*Mediaqueries de telefono*/
+@media (min-width: 700px) {
+  .information {
+    width: 93vw;
+  }
+  .table-soft-skills {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .table-soft-skills li p {
+    width: 14vw;
+  }
+  .table-container {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .table-container li p {
+    width: 14vw;
+  }
+}
 header {
   width: 100%;
 }
@@ -216,16 +247,21 @@ header {
 }
 
 .aboutme-container {
-  margin-left: 8rem;
-  width: 50%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
 .aboutme-container img {
   border-radius: 50%;
   height: 20vh;
-  width: 50vw;
   padding-bottom: 1.5rem;
-  margin-left: 1rem;
 }
 
 .information {
@@ -236,11 +272,19 @@ header {
   padding-bottom: 2rem;
 }
 
+.soft-skills {
+  text-align: center;
+}
+
 .table-soft-skills {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 li p {
