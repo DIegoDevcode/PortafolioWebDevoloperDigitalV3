@@ -24,4 +24,78 @@
       }
     }
   }
+  .Proyect-container {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .One-Proyect {
+    img {
+      width: 55vw;
+      height: 18rem;
+      object-fit: cover;
+      padding-left: 12px;
+    }
+
+    h2 {
+      padding-bottom: 3rem;
+      padding-left: 1rem;
+      padding-top: 2rem;
+      text-align: center;
+    }
+  }
+}
+@media (min-width: $ancho-desktop) {
+  .One-Proyect {
+    img {
+      width: 35vw;
+      height: 15rem;
+      object-fit: cover;
+      padding-left: 12px;
+    }
+
+    h2 {
+      padding-bottom: 3rem;
+      padding-left: 1rem;
+      padding-top: 2rem;
+      text-align: center;
+    }
+  }
+}
+@media (min-width: $ancho-desktopmd) {
+  .Proyect-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .One-Proyect {
+      img {
+        width: 25vw;
+        height: 18rem;
+        object-fit: cover;
+        padding-left: 12rem;
+      }
+
+      h2 {
+        padding-bottom: 3rem;
+        padding-left: 12rem;
+        padding-top: 2rem;
+        text-align: start;
+      }
+    }
+    .article-description-one {
+      padding-top: 2rem;
+      width: 43vw;
+      text-align: center;
+      padding-left: 8px;
+      line-height: 2.5rem;
+    }
+  }
 }

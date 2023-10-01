@@ -205,6 +205,89 @@ footer p {
   .table-container li p {
     width: 14vw;
   }
+  .Proyect-container {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .One-Proyect img, .Two-Proyects img, .Three-proyect img {
+    width: 55vw;
+    height: 18rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-left: 12px;
+  }
+  .One-Proyect h2, .Two-Proyects h2, .Three-proyect h2 {
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+  }
+}
+@media (min-width: 900px) {
+  .One-Proyect img, .Two-Proyects img, .Three-proyect img {
+    width: 35vw;
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-left: 12px;
+  }
+  .One-Proyect h2, .Two-Proyects h2, .Three-proyect h2 {
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .Proyect-container {
+    height: 100%;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 20px 2fr;
+    grid-template-columns: 2fr 2fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  .Proyect-container .One-Proyect img, .Proyect-container .Two-Proyects img, .Proyect-container .Three-proyect img {
+    width: 25vw;
+    height: 18rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-left: 12rem;
+  }
+  .Proyect-container .One-Proyect h2, .Proyect-container .Two-Proyects h2, .Proyect-container .Three-proyect h2 {
+    padding-bottom: 3rem;
+    padding-left: 12rem;
+    padding-top: 2rem;
+    text-align: start;
+  }
+  .Proyect-container .article-description-one, .Proyect-container .article-description-two, .Proyect-container .article-description-three {
+    padding-top: 2rem;
+    width: 43vw;
+    text-align: center;
+    padding-left: 8px;
+    line-height: 2.5rem;
+  }
 }
 header {
   width: 100%;
