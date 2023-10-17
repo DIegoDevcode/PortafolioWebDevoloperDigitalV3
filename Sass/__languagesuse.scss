@@ -9,14 +9,18 @@
 .table-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 
 li {
   text-align: center;
   padding-bottom: 2rem;
+
   img {
     height: 6vh;
   }
+
   p {
     text-align: center;
     width: 48vw;
