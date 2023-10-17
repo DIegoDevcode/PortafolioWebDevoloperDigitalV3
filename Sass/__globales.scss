@@ -56,6 +56,12 @@ h1 {
   height: 200px;
 }
 
+@mixin imagenes-proyectos-desktopmd {
+  object-fit: cover;
+  margin-left: 610px;
+  height: 200px;
+}
+
 @mixin articles-descriptions {
   padding-top: 2rem;
   width: 90vw;
@@ -66,4 +72,4 @@ h1 {
 
 $ancho-movil: 300px;
 $ancho-desktop: 900px;
-$ancho-desktopmd: 1200px;
+$ancho-desktopmd: 1157px;

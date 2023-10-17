@@ -21,7 +21,7 @@
 .one-proyect {
   width: 100%;
 
-  h2 {
+  .google-titile {
     @include titulos-h1;
   }
 
@@ -70,6 +70,36 @@
     }
 
     .button-codigo-Eco-store {
+      @include estilo-botones;
+    }
+  }
+}
+
+.three-proyect {
+  width: 100%;
+
+  h2 {
+    @include titulos-h1;
+  }
+
+  img {
+    @include imagenes-proyectos;
+    height: 241px;
+    width: 430px;
+  }
+
+  .article-description-three {
+    @include articles-descriptions;
+  }
+
+  .button-container {
+    padding-top: 5px;
+
+    .button-Travel-demo {
+      @include estilo-botones;
+    }
+
+    .button-codigo-Tavel {
       @include estilo-botones;
     }
   }
