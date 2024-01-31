@@ -11,15 +11,24 @@
 </head>
 
 <body>
-    <nav>
+    <header class="main-header">
         <div id="left-logo">
             <img src="./Images/Logo temporal.jpeg" alt="">
         </div>
-       <button>Inicio</button>
-       <button>Sobre Mi</button>
-       <button>Proyectos</button>
-       <button class="btn contacto-btn">Contacto</button>
-    </nav>
+        <nav id="nav" class="nav-burger">
+            <div class="nav-links">
+                <a class="link-info">Inicio</a>
+                <a class="link-info">Sobre Mi</a>
+                <a class="link-info">Proyectos</a>
+                <a class="link-info">Contacto</a>
+            </div>
+        </nav>
+        <button id="button-menu" class="button-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
     <section class="layout">
         <div class="photo-main">
         <img src="./Images/NuevaFotoMia.jpeg" alt="">
@@ -33,6 +42,6 @@
         Mi objetivo es aportar a proyectos innovadores y exitosos en el ámbito de la tecnología web.
         Tengo las siguientes habilidades blandas y manejo tecnologías como:
     </article>
+    <script src="./buttonburguer.js"></script>
 </body>
-
 </html>
