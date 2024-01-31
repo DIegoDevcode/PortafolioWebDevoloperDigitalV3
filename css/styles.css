@@ -55,6 +55,10 @@ nav {
   width: 120px;
 }
 
+.title-info {
+  padding-top: 100px;
+}
+
 @media screen and (min-width: 300px) and (max-width: 500px) {
   .layout {
     display: -webkit-box;
