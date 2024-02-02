@@ -26,7 +26,7 @@ html{
     height: 100vh;
     width: 100%;
     margin-left: -100%;
-    transition: all 0.2s linear;
+    transition: all 0.4s linear;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 100;
   }
@@ -61,7 +61,7 @@ html{
     left: 0;
     width: 0%;
     height: 3px;
-    transition: 0.3s ease all;
+    transition: 0.1s ease all;
   }
   
   .link-info:hover::after {
@@ -145,6 +145,29 @@ html{
             margin-right: 70px;
             margin: 0 auto;
         }
+        .info-article{
+          font-size: 1.55rem;
+          padding-right: 30px;
+        }
+
+        .container-softskills{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .container-softskills img{
+          width: 18vw;
+          padding-right: 30px;
+
+        }
+        .container-softskills p{
+          font-size: 1.55rem;
+          text-align: center;
+        }
+        li{
+          list-style: none;
+        }
     }
 
 
@@ -173,4 +196,5 @@ html{
           margin-top: 0;
           margin-right: 2rem;
         }
+        
       }
