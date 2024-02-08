@@ -1,7 +1,10 @@
 @charset "UTF-8";
-body {
+* {
   padding: 0;
   margin: 0;
+}
+
+body {
   text-align: center;
   font-size: 20px;
   width: 100%;
@@ -212,7 +215,8 @@ html {
             align-items: center;
   }
   .container-softskills img {
-    width: 18vw;
+    width: 24vw;
+    margin: 0 auto;
   }
   .container-softskills p {
     font-size: 1.55rem;
@@ -222,11 +226,19 @@ html {
     list-style: none;
   }
   .languages-container img {
-    width: 18vw;
+    width: 24vw;
+    margin: 0 auto;
   }
   .languages-container p {
     font-size: 1.55rem;
     text-align: center;
+    padding: 10px;
+  }
+  .section-proyectos img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 350px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) {
