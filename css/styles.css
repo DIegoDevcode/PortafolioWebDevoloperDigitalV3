@@ -213,7 +213,6 @@ html {
   }
   .container-softskills img {
     width: 18vw;
-    padding-right: 30px;
   }
   .container-softskills p {
     font-size: 1.55rem;
@@ -221,6 +220,13 @@ html {
   }
   li {
     list-style: none;
+  }
+  .languages-container img {
+    width: 18vw;
+  }
+  .languages-container p {
+    font-size: 1.55rem;
+    text-align: center;
   }
 }
 @media screen and (min-width: 768px) {
