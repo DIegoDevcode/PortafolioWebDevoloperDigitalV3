@@ -183,6 +183,26 @@ html{
           width: 350px;
           margin: 0 auto;
         }
+        .Titulo-proyectos{
+          padding: 10px;
+        }
+      .section-proyectos h3{
+        padding: 12px;
+      }
+        .section-proyectos article{
+          width: 75vw;
+          margin: 0 auto;
+          padding: 10px;
+        }
+        .section-proyectos .JS-TODOIMAGE{
+          width: 300px;
+        }
+        .section-proyectos .Travel{
+          @extend .JS-TODOIMAGE;
+        }
+        .section-proyectos .Eco-store{
+          width: 300px;
+        }
     }
 
 

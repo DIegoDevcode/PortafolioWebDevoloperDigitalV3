@@ -240,6 +240,23 @@ html {
     width: 350px;
     margin: 0 auto;
   }
+  .Titulo-proyectos {
+    padding: 10px;
+  }
+  .section-proyectos h3 {
+    padding: 12px;
+  }
+  .section-proyectos article {
+    width: 75vw;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .section-proyectos .JS-TODOIMAGE, .section-proyectos .Travel {
+    width: 300px;
+  }
+  .section-proyectos .Eco-store {
+    width: 300px;
+  }
 }
 @media screen and (min-width: 768px) {
   .button-menu {
