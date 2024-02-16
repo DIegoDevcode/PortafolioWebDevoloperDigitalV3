@@ -1,0 +1,151 @@
+/* 300px a 400px*/
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .photo-main,
+    .greeting {
+        order: initial;
+        /* Restaura el orden original en pantallas pequeñas */
+    }
+
+    .greeting {
+        width: 300px;
+        margin-left: 5px;
+    }
+
+    .photo-main img {
+        margin-right: 70px;
+        margin: 0 auto;
+    }
+
+    .info-article {
+        font-size: 1.55rem;
+        padding-right: 30px;
+    }
+
+    .container-softskills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-softskills img {
+        width: 24vw;
+        margin: 0 auto;
+    }
+
+    .container-softskills p {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .languages-container img {
+        width: 24vw;
+        margin: 0 auto;
+    }
+
+    .languages-container p {
+        font-size: 1.55rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .section-proyectos img {
+        object-fit: contain;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .Titulo-proyectos {
+        padding: 10px;
+    }
+
+    .section-proyectos h3 {
+        padding: 12px;
+    }
+
+    .section-proyectos article {
+        width: 75vw;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .section-proyectos .JS-TODOIMAGE {
+        width: 300px;
+    }
+
+    .section-proyectos .Travel {
+        @extend .JS-TODOIMAGE;
+    }
+
+    .section-proyectos .Eco-store {
+        width: 300px;
+    }
+}
+
+/* 300px a 400px*/
+@media screen and (min-width: 400px) and (max-width: 600px){
+    .layout {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .photo-main,
+    .greeting {
+        order: initial;
+    }
+    .greeting {
+        width: 350px;
+        margin-left: 30px;
+    }
+
+    .info-article {
+        font-size: 2.2rem;
+        width: 395px;
+    }
+    .container-softskills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-softskills img {
+        width: 24vw;
+        margin: 0 auto;
+    }
+
+    .container-softskills p {
+        text-align: center;
+        font-size: 2rem;
+    }
+    li {
+        list-style: none;
+    }
+
+    .languages-container img {
+        width: 24vw;
+        margin: 0 auto;
+    }
+
+    .languages-container p {
+        font-size: 1.55rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .section-proyectos img {
+        object-fit: contain;
+        width: 350px;
+        margin: 0 auto;
+    }
+}
