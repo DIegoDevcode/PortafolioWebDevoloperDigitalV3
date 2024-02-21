@@ -14,7 +14,8 @@
 
     .greeting {
         width: 300px;
-        margin-left: 5px;
+        margin-left: 35px;
+        font-size: 1.88rem;
     }
 
     .photo-main img {
@@ -23,8 +24,10 @@
     }
 
     .info-article {
-        font-size: 1.55rem;
-        padding-right: 30px;
+        font-size: 1.88rem;
+        margin: 0 auto;
+        width: 85%;
+        padding: 10px;
     }
 
     .container-softskills {
@@ -35,26 +38,37 @@
     }
 
     .container-softskills img {
-        width: 24vw;
+        width: 17vw;
         margin: 0 auto;
+        padding: 8px;
     }
 
     .container-softskills p {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.88rem;
+        padding: 8px;
     }
 
     li {
         list-style: none;
     }
 
+    .soft-skills,
+    .Lenguajes{
+        padding: 8px;
+    }
+
+    .Lenguajes{
+        font-size: 2rem;
+    }
     .languages-container img {
-        width: 24vw;
+        width: 17vw;
         margin: 0 auto;
+        padding: 8px;
     }
 
     .languages-container p {
-        font-size: 1.55rem;
+        font-size: 1.88rem;
         text-align: center;
         padding: 10px;
     }
@@ -90,6 +104,10 @@
     .section-proyectos .Eco-store {
         width: 300px;
     }
+    .section-proyectos button{
+        width: 237px;
+        border-radius: 7px;
+    }
 }
 
 /* 300px a 400px*/
@@ -106,10 +124,12 @@
     .greeting {
         width: 350px;
         margin-left: 30px;
+        font-size: 1.88rem;
+
     }
 
     .info-article {
-        font-size: 2.2rem;
+        font-size: 1.88rem;
         width: 395px;
     }
     .container-softskills {

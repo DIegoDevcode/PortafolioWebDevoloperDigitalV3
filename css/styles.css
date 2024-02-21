@@ -6,7 +6,7 @@
 
 body {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.88rem;
   width: 100%;
   height: 100%;
 }
@@ -226,15 +226,18 @@ html {
   }
   .greeting {
     width: 300px;
-    margin-left: 5px;
+    margin-left: 35px;
+    font-size: 1.88rem;
   }
   .photo-main img {
     margin-right: 70px;
     margin: 0 auto;
   }
   .info-article {
-    font-size: 1.55rem;
-    padding-right: 30px;
+    font-size: 1.88rem;
+    margin: 0 auto;
+    width: 85%;
+    padding: 10px;
   }
   .container-softskills {
     display: -webkit-box;
@@ -252,22 +255,32 @@ html {
             align-items: center;
   }
   .container-softskills img {
-    width: 24vw;
+    width: 17vw;
     margin: 0 auto;
+    padding: 8px;
   }
   .container-softskills p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.88rem;
+    padding: 8px;
   }
   li {
     list-style: none;
   }
+  .soft-skills,
+  .Lenguajes {
+    padding: 8px;
+  }
+  .Lenguajes {
+    font-size: 2rem;
+  }
   .languages-container img {
-    width: 24vw;
+    width: 17vw;
     margin: 0 auto;
+    padding: 8px;
   }
   .languages-container p {
-    font-size: 1.55rem;
+    font-size: 1.88rem;
     text-align: center;
     padding: 10px;
   }
@@ -294,6 +307,10 @@ html {
   .section-proyectos .Eco-store {
     width: 300px;
   }
+  .section-proyectos button {
+    width: 237px;
+    border-radius: 7px;
+  }
 }
 /* 300px a 400px*/
 @media screen and (min-width: 400px) and (max-width: 600px) {
@@ -318,9 +335,10 @@ html {
   .greeting {
     width: 350px;
     margin-left: 30px;
+    font-size: 1.88rem;
   }
   .info-article {
-    font-size: 2.2rem;
+    font-size: 1.88rem;
     width: 395px;
   }
   .container-softskills {
