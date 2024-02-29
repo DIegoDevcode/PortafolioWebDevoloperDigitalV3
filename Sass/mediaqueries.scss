@@ -209,5 +209,23 @@
         width: 7vw;
         margin: 0 auto;
     }
-
+    .section-proyectos img {
+        object-fit: contain;
+        width: 350px;
+        margin: 0 auto;
+    }
+    .section-proyectos article{
+        width: 450px;
+    }
+    .section-proyectos h3{
+        padding: 15px;
+    }
+.grid-container{
+    display: grid;
+    grid-template-columns: 500px 600px;
+    margin: 0 auto;
+    justify-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 }
