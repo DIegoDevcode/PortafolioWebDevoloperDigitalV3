@@ -1,0 +1,32 @@
+.title-info{
+    padding: 25px;
+}
+
+.info-article{
+    width: 70%;
+    margin: 0 auto;  
+}
+
+.soft-skills{
+    padding: 25px;
+}
+
+.container-softskills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-softskills img {
+    width: 6vw;
+    height: 70px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.container-softskills p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 8px;
+}

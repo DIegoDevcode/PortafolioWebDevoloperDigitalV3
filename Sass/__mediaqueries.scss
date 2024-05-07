@@ -32,28 +32,8 @@
         padding: 10px;
     }
 
-    .container-softskills {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container-softskills img {
-        width: 17vw;
-        margin: 0 auto;
-        padding: 8px;
-    }
-
-    .container-softskills p {
-        text-align: center;
-        font-size: 1.88rem;
-        padding: 8px;
-    }
-
-    li {
-        list-style: none;
-    }
+   
+    
 
     .soft-skills,
     .Lenguajes{
@@ -178,6 +158,7 @@
         border-radius: 7px;
     }
 }
+
 @media screen and (min-width: 600px) and (max-width: 1400px){
     .layout {
         display: grid;
