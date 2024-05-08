@@ -18,15 +18,21 @@
     
 }
 
-.container-softskills img {
-    width: 6vw;
-    height: 70px;
-    margin: 0 auto;
-    padding: 8px;
-}
 
 .container-softskills p {
     text-align: center;
-    font-size: 1.5rem;
     padding: 8px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1400px) {
+.container-softskills img {
+    width: 7vw;
+    height: 80px;
+    margin: 0 auto;
+    padding: 8px;
+}
+    
+.container-softskills p {
+    font-size: 1.7rem;
+}
 }

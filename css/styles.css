@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* 300px a 400px*/
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (min-width: 320px) and (max-width: 700px) {
   .layout {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9,112 +8,40 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .photo-main,
+  .photo-main {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .greeting {
-    -webkit-box-ordinal-group: initial;
-        -ms-flex-order: initial;
-            order: initial;
-    /* Restaura el orden original en pantallas pequeñas */
-  }
-  .greeting {
-    width: 300px;
-    margin-left: 35px;
-    font-size: 1.88rem;
-  }
-  .photo-main img {
-    margin-right: 70px;
-    margin: 0 auto;
+    padding-top: 85px;
+    width: 500px;
+    font-size: 1.7rem;
+    line-height: 21px;
   }
   .title-info {
-    padding-top: 20rem;
+    font-size: 1.9rem;
   }
   .info-article {
-    font-size: 1.88rem;
-    margin: 0 auto;
-    width: 85%;
-    padding: 10px;
-  }
-  .soft-skills,
-  .Lenguajes {
-    padding: 8px;
-  }
-  .Lenguajes {
-    font-size: 2rem;
-  }
-  .languages-container img {
-    width: 17vw;
-    margin: 0 auto;
-    padding: 8px;
-  }
-  .languages-container p {
-    font-size: 1.88rem;
+    font-size: 1.7rem;
+    line-height: 21px;
     text-align: center;
-    padding: 10px;
   }
-  .section-proyectos img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 350px;
-    margin: 0 auto;
-  }
-  .Titulo-proyectos {
-    padding: 10px;
-  }
-  .section-proyectos h3 {
-    padding: 12px;
-  }
-  .section-proyectos article {
-    width: 75vw;
-    margin: 0 auto;
-    padding: 10px;
-  }
-  .section-proyectos .JS-TODOIMAGE, .section-proyectos .Travel {
-    width: 300px;
-  }
-  .section-proyectos .Eco-store {
-    width: 300px;
-  }
-  .section-proyectos button {
-    width: 237px;
-    border-radius: 7px;
-  }
-}
-/* 400px a 500px*/
-@media screen and (min-width: 400px) and (max-width: 600px) {
-  .layout {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .photo-main,
-  .greeting {
-    -webkit-box-ordinal-group: initial;
-        -ms-flex-order: initial;
-            order: initial;
-  }
-  .greeting {
-    width: 350px;
-    font-size: 1.88rem;
-    margin: 0 auto;
-  }
-  .title-info {
-    padding-top: 20rem;
-  }
-  .info-article {
-    font-size: 1.88rem;
-    width: 395px;
-    margin: 0 auto;
+  .soft-skills {
+    font-size: 1.9rem;
   }
   .container-softskills {
     display: -webkit-box;
@@ -132,134 +59,43 @@
             align-items: center;
   }
   .container-softskills img {
-    width: 24vw;
+    width: 20vw;
+    height: 70px;
     margin: 0 auto;
+    padding: 8px;
   }
   .container-softskills p {
-    text-align: center;
-    font-size: 2rem;
-  }
-  li {
-    list-style: none;
-  }
-  .languages-container img {
-    width: 24vw;
-    margin: 0 auto;
-  }
-  .languages-container p {
-    font-size: 1.55rem;
-    text-align: center;
-    padding: 10px;
-  }
-  .section-proyectos img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 350px;
-    margin: 0 auto;
-  }
-  .section-proyectos button {
-    width: 237px;
-    border-radius: 7px;
-  }
-}
-@media screen and (min-width: 600px) and (max-width: 1400px) {
-  .layout {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 700px 500px;
-    grid-template-columns: 700px 500px;
-    -ms-grid-rows: 40px 40px;
-    grid-template-rows: 40px 40px;
-  }
-  .layout > *:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-  .layout > *:nth-child(2) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-  }
-  .layout > *:nth-child(3) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-  }
-  .layout > *:nth-child(4) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 2;
-  }
-  .container-softskills {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 400px 400px;
-    grid-template-columns: 400px 400px;
-    -ms-grid-rows: 150px 150px;
-    grid-template-rows: 150px 150px;
-    margin: 0 auto;
-    justify-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .container-softskills > *:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-  .container-softskills > *:nth-child(2) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-  }
-  .container-softskills > *:nth-child(3) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-  }
-  .container-softskills > *:nth-child(4) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 2;
-  }
-  h3 {
-    padding: 20px;
-  }
-  li {
-    list-style: none;
+    font-size: 1.7rem;
   }
   .languages-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 400px 400px;
-    grid-template-columns: 400px 400px;
-    margin: 0 auto;
-    justify-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .languages-container img {
-    width: 7vw;
-    margin: 0 auto;
-  }
-  .section-proyectos img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 350px;
-    margin: 0 auto;
-  }
-  .section-proyectos article {
-    width: 450px;
-  }
-  .section-proyectos h3 {
-    padding: 15px;
-  }
-  .grid-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 500px 10px 600px;
-    grid-template-columns: 500px 600px;
-    margin: 0 auto;
-    justify-items: center;
+  .proyectos-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 .nav-burger {
@@ -388,18 +224,16 @@
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2; /* Cambia el orden en pantalla de escritorio, poniendo la foto a la derecha */
-  padding-left: 40px;
 }
 
+/*
 .greeting {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-  height: 100px;
-  padding-top: 25px;
-  width: 50%;
+    order: 1; 
+    height: 100px;
+    width: 50%;
 }
 
+*/
 .photo-main img {
   height: 120px;
   width: 120px;
@@ -512,19 +346,22 @@ li {
           align-items: center;
 }
 
-.container-softskills img {
-  width: 6vw;
-  height: 70px;
-  margin: 0 auto;
-  padding: 8px;
-}
-
 .container-softskills p {
   text-align: center;
-  font-size: 1.5rem;
   padding: 8px;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1400px) {
+  .container-softskills img {
+    width: 7vw;
+    height: 80px;
+    margin: 0 auto;
+    padding: 8px;
+  }
+  .container-softskills p {
+    font-size: 1.7rem;
+  }
+}
 .Lenguajes {
   padding: 20px;
 }
@@ -562,14 +399,6 @@ li {
   padding-bottom: 40px;
 }
 
-.proyectos-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-  gap: 20px; /* Espacio entre los elementos */
-}
-
 .proyecto {
   border: 1px solid #ccc;
   padding: 20px;
@@ -597,4 +426,14 @@ li {
 
 .descripción {
   font-weight: 100;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1400px) {
+  .proyectos-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 20px; /* Espacio entre los elementos */
+  }
 }

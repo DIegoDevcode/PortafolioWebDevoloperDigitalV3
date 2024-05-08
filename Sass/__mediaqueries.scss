@@ -1,212 +1,72 @@
-/* 300px a 400px*/
-@media screen and (min-width: 300px) and (max-width: 400px) {
-    .layout {
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+    .layout{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-    }
+        justify-content: center;
+        align-items: center;
 
-    .photo-main,
-    .greeting {
-        order: initial;
-        /* Restaura el orden original en pantallas pequeñas */
     }
-
-    .greeting {
-        width: 300px;
-        margin-left: 35px;
-        font-size: 1.88rem;
+    .photo-main{
+        position: absolute;
+        top: 0;
+        width: 250px;
+        display: flex;
+        justify-content: center;
     }
-
-    .photo-main img {
-        margin-right: 70px;
-        margin: 0 auto;
-    }
-    .title-info{
-        padding-top: 20rem;
-    }
-    .info-article {
-        font-size: 1.88rem;
-        margin: 0 auto;
-        width: 85%;
-        padding: 10px;
-    }
-
    
-    
-
-    .soft-skills,
-    .Lenguajes{
-        padding: 8px;
+    .greeting{
+        padding-top: 85px;
+        width: 500px;
+        font-size: 1.7rem;
+        line-height: 21px;
     }
 
-    .Lenguajes{
-        font-size: 2rem;
-    }
-    .languages-container img {
-        width: 17vw;
-        margin: 0 auto;
-        padding: 8px;
-    }
 
-    .languages-container p {
-        font-size: 1.88rem;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .section-proyectos img {
-        object-fit: contain;
-        width: 350px;
-        margin: 0 auto;
-    }
-
-    .Titulo-proyectos {
-        padding: 10px;
-    }
-
-    .section-proyectos h3 {
-        padding: 12px;
-    }
-
-    .section-proyectos article {
-        width: 75vw;
-        margin: 0 auto;
-        padding: 10px;
-    }
-
-    .section-proyectos .JS-TODOIMAGE {
-        width: 300px;
-    }
-
-    .section-proyectos .Travel {
-        @extend .JS-TODOIMAGE;
-    }
-
-    .section-proyectos .Eco-store {
-        width: 300px;
-    }
-    .section-proyectos button{
-        width: 237px;
-        border-radius: 7px;
-    }
-}
-
-/* 400px a 500px*/
-@media screen and (min-width: 400px) and (max-width: 600px){
-    .layout {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .photo-main,
-    .greeting {
-        order: initial;
-    }
-    .greeting {
-        width: 350px;
-        font-size: 1.88rem;
-        margin: 0 auto;
-
-    }
     .title-info{
-        padding-top: 20rem;
+        font-size: 1.9rem;
+
     }
-    .info-article {
-        font-size: 1.88rem;
-        width: 395px;
-        margin: 0 auto;
+
+    .info-article{
+        font-size: 1.7rem;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .soft-skills{
+        font-size: 1.9rem;
     }
     .container-softskills {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
-
+    
     .container-softskills img {
-        width: 24vw;
+        width: 20vw;
+        height: 70px;
         margin: 0 auto;
+        padding: 8px;
     }
-
+    
     .container-softskills p {
-        text-align: center;
-        font-size: 2rem;
-    }
-    li {
-        list-style: none;
+        font-size: 1.7rem;
     }
 
-    .languages-container img {
-        width: 24vw;
-        margin: 0 auto;
-    }
-
-    .languages-container p {
-        font-size: 1.55rem;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .section-proyectos img {
-        object-fit: contain;
-        width: 350px;
-        margin: 0 auto;
-    }
-    .section-proyectos button{
-        width: 237px;
-        border-radius: 7px;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1400px){
-    .layout {
-        display: grid;
-        grid-template-columns: 700px 500px;
-        grid-template-rows: 40px 40px;
-    }
-    .container-softskills{
-        display: grid;
-        grid-template-columns: 400px 400px;
-        grid-template-rows: 150px 150px;
-        margin: 0 auto;
-        justify-items: center;
-        justify-content: center;
-    }
-    h3{
-        padding: 20px;
-    }
-    li{
-        list-style: none;
-    }
     .languages-container{
-        display: grid;
-        grid-template-columns: 400px 400px;
-        margin: 0 auto;
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
-    .languages-container img {
-        width: 7vw;
-        margin: 0 auto;
+
+    .proyectos-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .section-proyectos img {
-        object-fit: contain;
-        width: 350px;
-        margin: 0 auto;
-    }
-    .section-proyectos article{
-        width: 450px;
-    }
-    .section-proyectos h3{
-        padding: 15px;
-    }
-.grid-container{
-    display: grid;
-    grid-template-columns: 500px 600px;
-    margin: 0 auto;
-    justify-items: center;
-    justify-content: center;
-    gap: 10px;
-}
 }

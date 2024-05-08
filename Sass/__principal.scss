@@ -94,15 +94,15 @@
 
 .photo-main {
     order: 2; /* Cambia el orden en pantalla de escritorio, poniendo la foto a la derecha */
-  padding-left: 40px;
   }
-
+/*
 .greeting {
     order: 1; 
     height: 100px;
-    padding-top: 25px;
     width: 50%;
 }
+   
+*/
 .photo-main img{
     height: 120px;
     width: 120px;
@@ -114,7 +114,6 @@
     text-align: center;
 }
 
-   
 
 
 @media screen and (min-width: 768px) {
