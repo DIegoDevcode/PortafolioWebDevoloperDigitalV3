@@ -553,6 +553,15 @@ li {
   padding-bottom: 20px;
 }
 
+.section-proyectos h3 {
+  padding: 15px;
+}
+
+.section-proyectos p {
+  padding: 10px;
+  padding-bottom: 40px;
+}
+
 .proyectos-container {
   display: -ms-grid;
   display: grid;
