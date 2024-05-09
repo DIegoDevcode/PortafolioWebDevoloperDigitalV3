@@ -8,14 +8,18 @@
     justify-content: center;
 }
 
-.languages-container img{
-    height: 70px;
-    width: 6vw;
-    padding-left: 10px;
-    padding: 5px;
-}
 
 .languages-container p{
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1800px) {
+    .languages-container img{
+        height: 70px;
+        width: 6vw;
+        padding-left: 10px;
+        padding: 5px;
+    }
+    
 }

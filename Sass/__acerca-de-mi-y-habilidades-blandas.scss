@@ -3,7 +3,6 @@
 }
 
 .info-article{
-    width: 70%;
     margin: 0 auto;  
 }
 
@@ -24,15 +23,23 @@
     padding: 8px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1400px) {
+@media screen and (min-width: 700px) and (max-width: 1800px) {
 .container-softskills img {
     width: 7vw;
     height: 80px;
     margin: 0 auto;
     padding: 8px;
+    
 }
     
 .container-softskills p {
     font-size: 1.7rem;
 }
+.info-article{
+    width: 70%;
 }
+}
+
+/*@media screen and (min-width: 720px) and (max-width: 1800px) {
+   
+}*/

@@ -17,7 +17,7 @@
    
     .greeting{
         padding-top: 85px;
-        width: 500px;
+        width: 90vw;
         font-size: 1.7rem;
         line-height: 21px;
     }
@@ -32,6 +32,7 @@
         font-size: 1.7rem;
         line-height: 21px;
         text-align: center;
+        width: 90vw;
     }
 
     .soft-skills{
@@ -46,8 +47,8 @@
     }
     
     .container-softskills img {
-        width: 20vw;
-        height: 70px;
+        width: 15vw;
+        height: 10vh;
         margin: 0 auto;
         padding: 8px;
     }
@@ -63,6 +64,10 @@
         align-items: center;
     }
 
+    .languages-container img{
+        width: 10vw;
+    }
+
     .proyectos-container{
         display: flex;
         flex-direction: column;
@@ -70,3 +75,4 @@
         align-items: center;
     }
 }
+
