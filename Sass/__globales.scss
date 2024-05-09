@@ -1,68 +1,35 @@
-:root{
-    /*Tamaño de fuentes*/
-    --vlg:2.0rem;
-    --lg:1.3rem;
-    --md: 18px;
-    --sm: 1.1rem;
-    /*Colores*/
-    --Dark--Blue--color: #253b6e;
-    --olivegreen--Secondarycolor:#02880B;
-    --Lightdarkpurple--Primarycolor:#389168;
-    --color-secondary: #dfb361;
-}
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+      margin: 0;
+  }
+  body{
+      text-align: center;
+      font-size: 1.5rem;
+      width: 100%;
+      height: 100%;
 
-body{
-    background-color: var(--Dark--Blue--color);
-    color:white;
-    font-size: 62.5%;
-    font-family: sans-serif;
-}
+  }
+  
+  html{
+      font-size: 62.5%;
+  }
 
-h1{
-    padding: 5px;
-    margin-top: 5px;
-}
+  h2{
+    font-size: 1.8rem;
+  }
 
-@mixin Estilos-titulo-h2{
+  h3{
     font-size: 1.5rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 40px;
+  }
+  li {
+    list-style: none;
 }
-
-@mixin Estilos-párrafos-secundarios{
-    font-size: var(--md);
-        font-weight: 300;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: 40px;
-}
-@mixin estilos-img-desktop {
-        width:  400px;
-        padding-left: 10px;
-        margin-right: 140px;
-        margin-left: 150px; 
-}
-
-@mixin estilos-botones-primarios{
-    text-align: center;
-    border-radius: 30px;
-    width: 52%;
-    margin-left: 160px;            
-    background-color: var(--color-secondary);
-    font-size: var(--md);
-}
-
-@mixin estilos-botones-primarios-segundo-estilo{
-    text-align: center;
-    border-radius: 30px;
-    width: 49.2%;
-    margin-left: 160px;            
-    background-color: var(--color-secondary);
-    font-size: var(--md);
-}
+  .main-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 0.4rem;
+  }
+  
