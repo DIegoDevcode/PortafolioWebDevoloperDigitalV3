@@ -230,14 +230,6 @@
           order: 2; /* Cambia el orden en pantalla de escritorio, poniendo la foto a la derecha */
 }
 
-/*
-.greeting {
-    order: 1; 
-    height: 100px;
-    width: 50%;
-}
-
-*/
 .photo-main img {
   height: 120px;
   width: 120px;
@@ -245,7 +237,6 @@
 }
 
 .title-info {
-  padding-top: 2rem;
   text-align: center;
 }
 
@@ -280,6 +271,16 @@
     display: inline-block;
     margin-top: 0;
     margin-right: 2rem;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1800px) {
+  .greeting {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 100px;
+    width: 50%;
+    padding-top: 5px;
   }
 }
 * {
@@ -325,10 +326,6 @@ li {
   padding: 0 0.4rem;
 }
 
-.title-info {
-  padding: 25px;
-}
-
 .info-article {
   margin: 0 auto;
 }
@@ -354,12 +351,17 @@ li {
   padding: 8px;
 }
 
-@media screen and (min-width: 700px) and (max-width: 1800px) {
+@media screen and (min-width: 700px) and (max-width: 800px) {
   .container-softskills img {
-    width: 7vw;
+    width: 10vw;
     height: 80px;
     margin: 0 auto;
     padding: 8px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1800px) {
+  .title-info {
+    padding-top: 75px;
   }
   .container-softskills p {
     font-size: 1.7rem;
@@ -368,9 +370,6 @@ li {
     width: 70%;
   }
 }
-/*@media screen and (min-width: 720px) and (max-width: 1800px) {
-
-}*/
 .Lenguajes {
   padding: 20px;
 }
@@ -442,7 +441,7 @@ li {
   font-weight: 100;
 }
 
-@media screen and (min-width: 720px) and (max-width: 1764px) {
+@media screen and (min-width: 720px) and (max-width: 1800px) {
   .proyectos-container {
     display: -ms-grid;
     display: grid;
