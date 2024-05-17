@@ -1,5 +1,16 @@
 
 @media screen and (min-width: 320px) and (max-width: 700px) {
+    .main-header {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        padding: 0 0.4rem;
+      }
+      
+    .button-menu{
+        padding-right: 15px;
+    }
     .layout{
         display: flex;
         flex-direction: column;
@@ -9,28 +20,26 @@
     }
     .photo-main{
         position: absolute;
-        top: 0;
+        top: 50px;
         width: 250px;
         display: flex;
         justify-content: center;
     }
    
     .greeting{
-        padding-top: 85px;
+        padding-top: 110px;
         width: 90vw;
         font-size: 1.7rem;
-        line-height: 21px;
     }
 
 
     .title-info{
         font-size: 1.9rem;
-
+        padding: 21px;
     }
 
     .info-article{
         font-size: 1.7rem;
-        line-height: 21px;
         text-align: center;
         width: 90vw;
     }
@@ -47,14 +56,17 @@
     }
     
     .container-softskills img {
-        width: 15vw;
-        height: 10vh;
+        width: 10vw;
         margin: 0 auto;
-        padding: 8px;
+        padding: 3px;
     }
     
     .container-softskills p {
         font-size: 1.7rem;
+    }
+
+    .Lenguajes{
+        font-size: 1.9rem;
     }
 
     .languages-container{
@@ -68,11 +80,29 @@
         width: 10vw;
     }
 
+    .section-proyectos{
+        h3{
+            font-size: 1.9rem;
+        }
+    }
+
     .proyectos-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: auto;
     }
+
+  
 }
 
+@media screen and (min-width: 500px) and (max-width: 720px) {
+    .proyectos-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 columnas */
+        justify-items: center;
+        align-items: center;
+        gap: 20px; /* Espacio entre los elementos */
+      }
+}
