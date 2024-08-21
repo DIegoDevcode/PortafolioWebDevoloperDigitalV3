@@ -13,9 +13,9 @@
 }
 
 .container-softskills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
 }
 
 .container-softskills p {
@@ -29,9 +29,9 @@
 }
 
 .languages-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
 }
 
 

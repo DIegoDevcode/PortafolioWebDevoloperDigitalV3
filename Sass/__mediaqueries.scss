@@ -1,78 +1,70 @@
-
+@import '_globales.scss';
 @media screen and (min-width: 320px) and (max-width: 700px) {
-    .layout{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
+    /**
+    * Este archivo contiene código SCSS para consultas de medios. La clase `.layout` se utiliza para aplicar propiedades flexbox para centrar vertical y horizontalmente a sus hijos.
+    La clase `.photo-main` se utiliza para posicionar un elemento de forma absoluta en la parte superior de su contenedor, con un ancho de 250px.
+    */
+    .layout {
+        @include flex-center-column;
     }
-    .photo-main{
+
+    .photo-main {
         position: absolute;
         top: 0;
         width: 250px;
         display: flex;
         justify-content: center;
     }
-   
-    .greeting{
+
+    .greeting {
         padding-top: 85px;
         width: 90vw;
-        font-size: 1.7rem;
-        line-height: 21px;
+        font-size: 1.7rem;        
     }
 
-
-    .title-info{
+    .title-info {
         font-size: 1.9rem;
-
+        line-height: 21px;
+        width: 90vw;
     }
 
-    .info-article{
+    .info-article {
         font-size: 1.7rem;
         line-height: 21px;
         text-align: center;
         width: 90vw;
     }
 
-    .soft-skills{
+    .soft-skills {
         font-size: 1.9rem;
     }
+
     .container-softskills {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    
-    .container-softskills img {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+
+    img {
         width: 15vw;
-        height: 10vh;
+        height: 6vh;
         margin: 0 auto;
         padding: 8px;
     }
-    
+    }
+
     .container-softskills p {
         font-size: 1.7rem;
     }
 
-    .languages-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .languages-container {
+        img{
+            width: 13vw;
+        }
     }
 
-    .languages-container img{
-        width: 10vw;
-    }
 
-    .proyectos-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .proyectos-container {
+        @include flex-center-column;
+        width: 90vw;
     }
 }
-

@@ -1,5 +1,61 @@
 @charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+.main-header {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 0 0.4rem;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1800px) {
+  .proyectos-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 20px; /* Espacio entre los elementos */
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 700px) {
+  /**
+  * Este archivo contiene código SCSS para consultas de medios. La clase `.layout` se utiliza para aplicar propiedades flexbox para centrar vertical y horizontalmente a sus hijos.
+  La clase `.photo-main` se utiliza para posicionar un elemento de forma absoluta en la parte superior de su contenedor, con un ancho de 250px.
+  */
   .layout {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,10 +86,11 @@
     padding-top: 85px;
     width: 90vw;
     font-size: 1.7rem;
-    line-height: 21px;
   }
   .title-info {
     font-size: 1.9rem;
+    line-height: 21px;
+    width: 90vw;
   }
   .info-article {
     font-size: 1.7rem;
@@ -45,46 +102,23 @@
     font-size: 1.9rem;
   }
   .container-softskills {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 20px 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
   }
   .container-softskills img {
     width: 15vw;
-    height: 10vh;
+    height: 6vh;
     margin: 0 auto;
     padding: 8px;
   }
   .container-softskills p {
     font-size: 1.7rem;
   }
-  .languages-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   .languages-container img {
-    width: 10vw;
+    width: 13vw;
   }
   .proyectos-container {
     display: -webkit-box;
@@ -100,6 +134,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 90vw;
   }
 }
 .nav-burger {
@@ -396,15 +431,11 @@ li {
 }
 
 .container-softskills {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 20px 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
 }
 
 .container-softskills p {
@@ -417,15 +448,11 @@ li {
 }
 
 .languages-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 20px 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
 }
 
 .languages-container p {

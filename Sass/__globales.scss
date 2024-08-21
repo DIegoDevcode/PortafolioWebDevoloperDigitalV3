@@ -16,6 +16,13 @@ $border-radius: 5px;
   cursor: pointer;
 }
 
+@mixin flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 *{
     padding: 0;
       margin: 0;
