@@ -1,0 +1,41 @@
+// seccion acerca de mi
+.title-info {
+    padding: 25px;
+}
+    
+.info-article{
+    margin: 0 auto;
+}
+
+// seccion habilidades
+.soft-skills{
+    padding: 25px;
+}
+
+.container-softskills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-softskills p {
+    text-align: center;
+    padding: 8px;
+}
+ 
+// seccion lenguajes
+.Lenguajes{
+    padding: 20px;
+}
+
+.languages-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.languages-container p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
