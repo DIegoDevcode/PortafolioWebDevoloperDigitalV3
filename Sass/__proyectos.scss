@@ -1,42 +1,41 @@
-.section-proyectos h3{
-    padding: 15px;
-}
+.section-proyectos {
+  h3 {
+    padding: $padding-medium;
+  }
 
-.section-proyectos p{
-    padding: 10px;
+  p {
+    padding: $padding-small;
     padding-bottom: 40px;
+  }
 }
 
+.proyecto {
+  border: 1px solid $border-color;
+  padding: $padding-large;
+  text-align: center;
 
-.proyecto{
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-}
-
-.proyecto img {
+  img {
     max-width: 100%;
     height: auto;
   }
+}
 
-  .botones {
-    margin-top: 10px;
-  }
-  .botón {
-    padding: 10px 20px;
-    margin: 0 5px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .enlace{
-    text-decoration: none;
-    color: #fff;
-  }
-  .descripción{
-    font-weight: 100;
-  }
+.botones {
+  margin-top: $padding-small;
+}
+
+.botón {
+  @include button-styles;
+}
+
+.enlace {
+  text-decoration: none;
+  color: #fff;
+}
+
+.descripción {
+  font-weight: 100;
+}
 
   @media screen and (min-width: 720px) and (max-width: 1764px) {
     .proyectos-container {
