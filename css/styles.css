@@ -82,10 +82,17 @@ li {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  /**
+  * Este archivo contiene estilos de media queries para el diseño responsivo del sitio web. Contiene estilos para las clases .greeting, .title-info y .info-article.
+  * La clase .greeting se utiliza para agregar un espacio superior de 85px, un ancho del 90vw y un tamaño de fuente de 1.7rem.
+  * La clase .title-info se utiliza para establecer un tamaño de fuente de 1.9rem, una altura de línea de 21px y un ancho del 90vw.
+  * La clase .info-article se utiliza para establecer un tamaño de fuente de 1.7rem, una altura de línea de 21px, alineación de texto centrada y un ancho del 90vw.
+  **/
   .greeting {
     padding-top: 85px;
     width: 90vw;
     font-size: 1.7rem;
+    line-height: 21px;
   }
   .title-info {
     font-size: 1.9rem;
@@ -104,9 +111,9 @@ li {
   .container-softskills {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr 20px 1fr;
+    -ms-grid-columns: 2fr 2px 1fr;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 2px;
   }
   .container-softskills img {
     width: 15vw;
@@ -134,7 +141,12 @@ li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 90vw;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  h3 {
+    width: 80vw;
+    margin: 0 auto;
   }
 }
 .nav-burger {
@@ -374,7 +386,7 @@ li {
 }
 .section-proyectos p {
   padding: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .proyecto {
@@ -433,9 +445,11 @@ li {
 .container-softskills {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 20px 1fr;
+  -ms-grid-columns: 2fr 2px 1fr;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 2px;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .container-softskills p {
@@ -445,14 +459,18 @@ li {
 
 .Lenguajes {
   padding: 20px;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .languages-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 20px 1fr;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 20px;
+  -ms-grid-columns: 2fr 2px 2fr;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 2px;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .languages-container p {

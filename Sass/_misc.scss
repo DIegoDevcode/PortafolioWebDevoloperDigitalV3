@@ -15,7 +15,9 @@
 .container-softskills {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 2px;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 .container-softskills p {
@@ -26,12 +28,16 @@
 // seccion lenguajes
 .Lenguajes{
     padding: 20px;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 .languages-container{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2px;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 
