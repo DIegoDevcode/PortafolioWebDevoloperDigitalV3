@@ -57,19 +57,20 @@ li {
   La clase `.photo-main` se utiliza para posicionar un elemento de forma absoluta en la parte superior de su contenedor, con un ancho de 250px.
   */
   .layout {
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    max-width: 600px; /* Ancho máximo para la tabla */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    gap: 10px; /* Espacio entre la foto y el párrafo */
   }
   .photo-main {
     position: absolute;
@@ -114,6 +115,8 @@ li {
     -ms-grid-columns: 2fr 2px 1fr;
     grid-template-columns: 2fr 1fr;
     grid-gap: 2px;
+    width: 20vw;
+    margin: 0 auto;
   }
   .container-softskills img {
     width: 15vw;
@@ -146,6 +149,33 @@ li {
   }
   h3 {
     width: 80vw;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1700px) {
+  .layout {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr; /* Dos columnas con un ancho mínimo de 300px */
+    gap: 20px; /* Espacio entre la foto y el párrafo */
+    width: 90%;
+    place-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .info-article {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .container-softskills img {
+    width: 60px;
+    margin: 0 auto;
+  }
+  .languages-container img {
+    width: 60px;
     margin: 0 auto;
   }
 }
@@ -448,7 +478,7 @@ li {
   -ms-grid-columns: 2fr 2px 1fr;
   grid-template-columns: 2fr 1fr;
   grid-gap: 2px;
-  width: 80vw;
+  width: 20vw;
   margin: 0 auto;
 }
 
@@ -469,7 +499,7 @@ li {
   -ms-grid-columns: 2fr 2px 2fr;
   grid-template-columns: 2fr 2fr;
   grid-gap: 2px;
-  width: 80vw;
+  width: 20vw;
   margin: 0 auto;
 }
 

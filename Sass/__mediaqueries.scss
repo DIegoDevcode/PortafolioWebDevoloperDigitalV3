@@ -5,7 +5,13 @@
     La clase `.photo-main` se utiliza para posicionar un elemento de forma absoluta en la parte superior de su contenedor, con un ancho de 250px.
     */
     .layout {
-        @include flex-center-column;
+        width: 80%; /* Ajusta el ancho según sea necesario */
+        max-width: 600px; /* Ancho máximo para la tabla */
+        margin: 0 auto; /* Centra la tabla horizontalmente */
+        display: flex;
+        justify-content: center;
+        flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+        gap: 10px; /* Espacio entre la foto y el párrafo */
     }
 
     .photo-main {
@@ -50,6 +56,8 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 2px;
+    width: 20vw;
+    margin: 0 auto;
 
     img {
         width: 15vw;
@@ -78,5 +86,36 @@
     h3{
         width: 80vw;
         margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1700px){
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Dos columnas con un ancho mínimo de 300px */
+        gap: 20px; /* Espacio entre la foto y el párrafo */
+        width: 90%;
+        place-items: center;
+        align-content: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .info-article{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-softskills{
+        img {
+            width: 60px;
+            margin: 0 auto;
+        }
+    }
+
+    .languages-container{
+        img{
+            width: 60px;
+            margin: 0 auto;
+        }
     }
 }
