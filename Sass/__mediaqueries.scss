@@ -1,121 +1,140 @@
-@import '_globales.scss';
+@import "_globales.scss";
 @media screen and (min-width: 320px) and (max-width: 700px) {
-    /**
-    * Este archivo contiene código SCSS para consultas de medios. La clase `.layout` se utiliza para aplicar propiedades flexbox para centrar vertical y horizontalmente a sus hijos.
-    La clase `.photo-main` se utiliza para posicionar un elemento de forma absoluta en la parte superior de su contenedor, con un ancho de 250px.
+  /**
+    * Este archivo contiene código SCSS para consultas de medios. 
     */
-    .layout {
-        width: 80%; /* Ajusta el ancho según sea necesario */
-        max-width: 600px; /* Ancho máximo para la tabla */
-        margin: 0 auto; /* Centra la tabla horizontalmente */
-        display: flex;
-        justify-content: center;
-        flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
-        gap: 10px; /* Espacio entre la foto y el párrafo */
-    }
+  .layout {
+    /*La clase `.layout` se utiliza para aplicar propiedades flexbox para centrar vertical y horizontalmente a sus hijos. */
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    max-width: 600px; /* Ancho máximo para la tabla */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    gap: 10px; /* Espacio entre la foto y el párrafo */
+  }
 
-    .photo-main {
-        position: absolute;
-        top: 0;
-        width: 250px;
-        display: flex;
-        justify-content: center;
-    }
-/**
-* Este archivo contiene estilos de media queries para el diseño responsivo del sitio web. Contiene estilos para las clases .greeting, .title-info y .info-article.
-* La clase .greeting se utiliza para agregar un espacio superior de 85px, un ancho del 90vw y un tamaño de fuente de 1.7rem.
-* La clase .title-info se utiliza para establecer un tamaño de fuente de 1.9rem, una altura de línea de 21px y un ancho del 90vw.
-* La clase .info-article se utiliza para establecer un tamaño de fuente de 1.7rem, una altura de línea de 21px, alineación de texto centrada y un ancho del 90vw.
-**/
+  .photo-main {
+    /*    La clase `.photo-main` se utiliza para posicionar un elemento de forma absoluta en la parte superior de su contenedor, con un ancho de 250px.
+    */
+    position: absolute;
+    top: 0;
+    padding-top: 25px;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
 
-    .greeting {
-        padding-top: 85px;
-        width: 90vw;
-        font-size: 1.7rem;     
-        line-height: 21px;   
+    img {
+      height: 100px;
+      border-radius: 100%;
     }
+  }
 
-    .title-info {
-        font-size: 1.9rem;
-        line-height: 21px;
-        width: 90vw;
-    }
+  .greeting {
+    /* La clase .greeting se utiliza para agregar un espacio superior de 85px, un ancho del 90vw y un tamaño de fuente de 1.7rem.
+    */
+    padding-top: 85px;
+    width: 80vw;
+    font-size: 1.7rem;
+  }
 
-    .info-article {
-        font-size: 1.7rem;
-        line-height: 21px;
-        text-align: center;
-        width: 90vw;
-    }
+  .greeting p {
+    padding-top: 15px;
+  }
 
-    .soft-skills {
-        font-size: 1.9rem;
-    }
+  .title-info {
+    /* La clase .title-info se utiliza para establecer un tamaño de fuente de 1.9rem, una altura de línea de 21px y un ancho del 90vw.
+    */
+    padding: 10px;
+  }
 
-    .container-softskills {
+  .info-article {
+    /* La clase .info-article se utiliza para establecer un tamaño de fuente de 1.7rem, una altura de línea de 21px y un ancho del 90vw. */
+    font-size: 1.7rem;
+    line-height: 18px;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .soft-skills {
+    font-size: 1.9rem;
+    padding: 15px;
+  }
+
+  .container-softskills {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 2px;
-    width: 20vw;
+    width: 60vw;
+    margin: 0 auto;
+    img {
+      width: 15vw;
+      height: 6vh;
+      margin: 0 auto;
+      padding: 8px;
+    }
+  }
+
+  .container-softskills p {
+    font-size: 1.7rem;
+  }
+  .Lenguajes {
+    padding: 15px;
+  }
+  .languages-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2px;
+    width: 80vw;
     margin: 0 auto;
 
     img {
-        width: 15vw;
-        height: 6vh;
-        margin: 0 auto;
-        padding: 8px;
+      width: 13vw;
     }
-    }
+  }
 
-    .container-softskills p {
-        font-size: 1.7rem;
-    }
+  .languages-container p {
+    padding: 10px;
+  }
 
-    .languages-container {
-        img{
-            width: 13vw;
-        }
-    }
-
-
-    .proyectos-container {
-        @include flex-center-column;
-        width: 80vw;
-        margin: 0 auto;
-    }
-    h3{
-        width: 80vw;
-        margin: 0 auto;
-    }
+  .proyectos-container {
+    @include flex-center-column;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  h3 {
+    width: 80vw;
+    margin: 0 auto;
+  }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1700px){
-    .layout {
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* Dos columnas con un ancho mínimo de 300px */
-        gap: 20px; /* Espacio entre la foto y el párrafo */
-        width: 90%;
-        place-items: center;
-        align-content: center;
-        max-width: 800px;
-        margin: 0 auto;
-    }
-    
-    .info-article{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .container-softskills{
-        img {
-            width: 60px;
-            margin: 0 auto;
-        }
-    }
+@media screen and (min-width: 700px) and (max-width: 1700px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas con un ancho mínimo de 300px */
+    gap: 20px; /* Espacio entre la foto y el párrafo */
+    width: 90%;
+    place-items: center;
+    align-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
-    .languages-container{
-        img{
-            width: 60px;
-            margin: 0 auto;
-        }
+  .info-article {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .container-softskills {
+    img {
+      width: 60px;
+      margin: 0 auto;
     }
+  }
+
+  .languages-container {
+    img {
+      width: 60px;
+      margin: 0 auto;
+    }
+  }
 }
