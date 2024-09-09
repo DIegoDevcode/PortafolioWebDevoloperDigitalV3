@@ -1,108 +1,291 @@
-
+@import "_globales.scss";
 @media screen and (min-width: 320px) and (max-width: 700px) {
-    .main-header {
-        height: 80px;
-        display: flex;
-        align-items: center;
-        background-color: white;
-        padding: 0 0.4rem;
-      }
-      
-    .button-menu{
-        padding-right: 15px;
-    }
-    .layout{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-    }
-    .photo-main{
-        position: absolute;
-        top: 50px;
-        width: 250px;
-        display: flex;
-        justify-content: center;
-    }
-   
-    .greeting{
-        padding-top: 110px;
-        width: 90vw;
-        font-size: 1.7rem;
-    }
+  .layout {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    @include flex-center; 
+    gap: 10px; 
+  }
 
+  .photo-main {
+    position: absolute;
+    top: 0;
+    padding-top: 25px;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
 
-    .title-info{
-        font-size: 1.9rem;
-        padding: 21px;
+    img {
+      height: 100px;
+      border-radius: 100%;
     }
+  }
 
-    .info-article{
-        font-size: 1.7rem;
-        text-align: center;
-        width: 90vw;
-    }
+  .greeting {
+    padding-top: 85px;
+    width: 80vw;
+    font-size: 1.7rem;
+  }
 
-    .soft-skills{
-        font-size: 1.9rem;
-    }
-    .container-softskills {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    
-    .container-softskills img {
-        width: 10vw;
-        margin: 0 auto;
-        padding: 3px;
-    }
-    
-    .container-softskills p {
-        font-size: 1.7rem;
-    }
+  .greeting p {
+    padding-top: 15px;
+  }
 
-    .Lenguajes{
-        font-size: 1.9rem;
-    }
+  .title-info {
+    padding: 10px;
+  }
 
-    .languages-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .info-article {
+    font-size: 1.7rem;
+    line-height: 18px;
+    width: 80vw;
+    margin: 0 auto;
+  }
 
-    .languages-container img{
-        width: 10vw;
-    }
+  .soft-skills {
+    font-size: 1.9rem;
+    padding: 15px;
+  }
 
-    .section-proyectos{
-        h3{
-            font-size: 1.9rem;
-        }
+  .container-softskills {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2px;
+    width: 60vw;
+    margin: 0 auto;
+    img {
+      width: 15vw;
+      margin: 0 auto;
+      padding: 8px;
     }
+  }
 
-    .proyectos-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: auto;
+  .container-softskills p {
+    font-size: 1.7rem;
+  }
+  .Lenguajes {
+    padding: 15px;
+  }
+  .languages-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2px;
+    width: 60vw;
+    margin: 0 auto;
+
+    img {
+      width: 13vw;
     }
+  }
 
+  .languages-container p {
+    padding: 10px;
+  }
+
+  .proyectos-container {
+    @include flex-center;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  h3 {
+    width: 80vw;
+    margin: 0 auto;
+  }
   
 }
 
-@media screen and (min-width: 500px) and (max-width: 720px) {
-    .proyectos-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 3 columnas */
-        justify-items: center;
-        align-items: center;
-        gap: 20px; /* Espacio entre los elementos */
-      }
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .layout {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 10px; 
+  }
+
+  .photo-main {
+    position: absolute;
+    top: 0;
+    padding-top: 48px;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+
+    img {
+      height: 100px;
+      border-radius: 100%;
+    }
+  }
+
+  .greeting {
+    padding-top: 90px;
+    width: 85vw;
+    font-size: 1.7rem;
+  }
+
+  .greeting p {
+    padding-top: 15px;
+  }
+
+  .title-info {
+    padding: 10px;
+  }
+
+  .info-article {
+    font-size: 1.7rem;
+    line-height: 18px;
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  .soft-skills {
+    font-size: 1.9rem;
+    padding: 15px;
+  }
+
+  .container-softskills {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2px;
+    width: 60vw;
+    margin: 0 auto;
+    img {
+      width: 8vw;
+      margin: 0 auto;
+      padding: 8px;
+    }
+  }
+
+  .container-softskills p {
+    font-size: 1.7rem;
+  }
+  .Lenguajes {
+    padding: 15px;
+  }
+  .languages-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2px;
+    width: 56vw;
+    margin: 0 auto;
+
+    img {
+      width: 8vw;
+    }
+  }
+
+  .languages-container p {
+    padding: 10px;
+  }
+
+  .proyectos-container {
+    @include flex-center;
+    width: 80vw;
+    margin: 0 auto;
+    h3 {
+      margin: 0 auto;
+      font-size: 1.9rem;
+    }
+    p{
+      margin: 0 auto;
+      font-size: 1.9rem;
+    }
+  }
+  
+}
+@media screen and (min-width: 1000px) and (max-width: 2000px) {
+  .layout {
+    width: 70%; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center; 
+  }
+
+  .photo-main {
+    position: relative; /* Cambia a relative para trabajar mejor con grid */
+    width: 100px;
+    img {
+      height: 80px;
+      width: 75px;
+      border-radius: 100%;
+    }
+  }
+
+  .greeting {
+    width: 65vw;
+    font-size: 1.7rem;
+  }
+
+  .greeting p {
+    padding-top: 15px;
+  }
+
+  .title-info {
+    padding: 10px;
+  }
+
+  .info-article {
+    font-size: 1.7rem;
+    line-height: 18px;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .soft-skills {
+    font-size: 1.9rem;
+    padding: 15px;
+  }
+
+  .container-softskills, .languages-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el ancho mínimo según tus necesidades */
+    gap: 20px; /* Espacio entre elementos */
+  }
+  
+  .skill {
+    text-align: center;
+  }
+    img {
+      width: 5vw;
+      margin: 0 auto;
+      padding: 8px;
+    }
+
+  .container-softskills p {
+    font-size: 1.7rem;
+  }
+  .Lenguajes {
+    padding: 25px;
+  }
+  
+    img {
+      width: 5vw;
+    }
+
+  .languages-container p {
+    padding: 10px;
+  }
+
+  .proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: $padding-large; /* Espacio entre los elementos */
+    width: 80vw;
+    margin: 0 auto;
+    h3, p {
+      margin: 0 auto;
+      font-size: 1.9rem;
+    } 
+    
+    img{
+      width: 100%;
+    }
+  }
+
 }

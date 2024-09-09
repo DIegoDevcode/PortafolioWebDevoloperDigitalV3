@@ -1,6 +1,4 @@
-
-
-  .nav-burger {
+.nav-burger {
     position: fixed;
     top: 0;
     left: 0;
@@ -84,30 +82,6 @@
         height: 70px;
     }
 }
-.layout {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Dos columnas con un ancho mínimo de 300px */
-    gap: 10px; /* Espacio entre la foto y el párrafo */
-    display: flex;
-    justify-content: center;
-}
-
-.photo-main {
-    order: 2; /* Cambia el orden en pantalla de escritorio, poniendo la foto a la derecha */
-  }
-
-.photo-main img{
-    height: 120px;
-    width: 120px;
-    border-radius: 100%;
-
-}
-.title-info{
-    text-align: center;
-}
-
-
-
 @media screen and (min-width: 768px) {
   .button-menu {
     display: none;
