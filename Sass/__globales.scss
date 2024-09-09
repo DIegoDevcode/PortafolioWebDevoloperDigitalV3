@@ -16,12 +16,22 @@ $border-radius: 5px;
   cursor: pointer;
 }
 
-@mixin flex-center-column {
+
+// Mixin para centrar elementos usando Flexbox
+@mixin flex-center($direction: column, $justify: center, $align: center) {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
 }
+
+// Mixin para configuración de Grid
+@mixin grid-layout($columns: 2, $gap: 10px) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-gap: $gap;
+}
+
 
 *{
     padding: 0;
@@ -102,11 +112,5 @@ p{
   }
   
 
-@media screen and (min-width: 720px) and (max-width: 1800px) {
-  .proyectos-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-    gap: $padding-large; /* Espacio entre los elementos */
-  }
-}
+
   

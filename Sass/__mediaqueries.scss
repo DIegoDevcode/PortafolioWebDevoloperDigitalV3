@@ -1,22 +1,15 @@
 @import "_globales.scss";
 @media screen and (min-width: 320px) and (max-width: 700px) {
-  /**
-    * Este archivo contiene código SCSS para consultas de medios. 
-    */
+
   .layout {
-    /*La clase `.layout` se utiliza para aplicar propiedades flexbox para centrar vertical y horizontalmente a sus hijos. */
-    width: 80%; /* Ajusta el ancho según sea necesario */
-    max-width: 600px; /* Ancho máximo para la tabla */
-    margin: 0 auto; /* Centra la tabla horizontalmente */
-    display: flex;
-    justify-content: center;
-    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
-    gap: 10px; /* Espacio entre la foto y el párrafo */
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    @include flex-center; 
+    gap: 10px; 
   }
 
   .photo-main {
-    /*    La clase `.photo-main` se utiliza para posicionar un elemento de forma absoluta en la parte superior de su contenedor, con un ancho de 250px.
-    */
     position: absolute;
     top: 0;
     padding-top: 25px;
@@ -31,8 +24,6 @@
   }
 
   .greeting {
-    /* La clase .greeting se utiliza para agregar un espacio superior de 85px, un ancho del 90vw y un tamaño de fuente de 1.7rem.
-    */
     padding-top: 85px;
     width: 80vw;
     font-size: 1.7rem;
@@ -43,13 +34,10 @@
   }
 
   .title-info {
-    /* La clase .title-info se utiliza para establecer un tamaño de fuente de 1.9rem, una altura de línea de 21px y un ancho del 90vw.
-    */
     padding: 10px;
   }
 
   .info-article {
-    /* La clase .info-article se utiliza para establecer un tamaño de fuente de 1.7rem, una altura de línea de 21px y un ancho del 90vw. */
     font-size: 1.7rem;
     line-height: 18px;
     width: 80vw;
@@ -69,7 +57,6 @@
     margin: 0 auto;
     img {
       width: 15vw;
-      height: 6vh;
       margin: 0 auto;
       padding: 8px;
     }
@@ -85,7 +72,7 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-gap: 2px;
-    width: 80vw;
+    width: 60vw;
     margin: 0 auto;
 
     img {
@@ -98,7 +85,7 @@
   }
 
   .proyectos-container {
-    @include flex-center-column;
+    @include flex-center;
     width: 80vw;
     margin: 0 auto;
   }
@@ -106,35 +93,199 @@
     width: 80vw;
     margin: 0 auto;
   }
+  
 }
 
-@media screen and (min-width: 700px) and (max-width: 1700px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {
   .layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas con un ancho mínimo de 300px */
-    gap: 20px; /* Espacio entre la foto y el párrafo */
-    width: 90%;
-    place-items: center;
-    align-content: center;
-    max-width: 800px;
-    margin: 0 auto;
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 10px; 
+  }
+
+  .photo-main {
+    position: absolute;
+    top: 0;
+    padding-top: 48px;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+
+    img {
+      height: 100px;
+      border-radius: 100%;
+    }
+  }
+
+  .greeting {
+    padding-top: 90px;
+    width: 85vw;
+    font-size: 1.7rem;
+  }
+
+  .greeting p {
+    padding-top: 15px;
+  }
+
+  .title-info {
+    padding: 10px;
   }
 
   .info-article {
-    width: 90%;
+    font-size: 1.7rem;
+    line-height: 18px;
+    width: 95vw;
     margin: 0 auto;
   }
+
+  .soft-skills {
+    font-size: 1.9rem;
+    padding: 15px;
+  }
+
   .container-softskills {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2px;
+    width: 60vw;
+    margin: 0 auto;
     img {
-      width: 60px;
+      width: 8vw;
       margin: 0 auto;
+      padding: 8px;
     }
   }
 
+  .container-softskills p {
+    font-size: 1.7rem;
+  }
+  .Lenguajes {
+    padding: 15px;
+  }
   .languages-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2px;
+    width: 56vw;
+    margin: 0 auto;
+
     img {
-      width: 60px;
-      margin: 0 auto;
+      width: 8vw;
     }
   }
+
+  .languages-container p {
+    padding: 10px;
+  }
+
+  .proyectos-container {
+    @include flex-center;
+    width: 80vw;
+    margin: 0 auto;
+    h3 {
+      margin: 0 auto;
+      font-size: 1.9rem;
+    }
+    p{
+      margin: 0 auto;
+      font-size: 1.9rem;
+    }
+  }
+  
+}
+@media screen and (min-width: 1000px) and (max-width: 2000px) {
+  .layout {
+    width: 70%; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center; 
+  }
+
+  .photo-main {
+    position: relative; /* Cambia a relative para trabajar mejor con grid */
+    width: 100px;
+    img {
+      height: 80px;
+      width: 75px;
+      border-radius: 100%;
+    }
+  }
+
+  .greeting {
+    width: 65vw;
+    font-size: 1.7rem;
+  }
+
+  .greeting p {
+    padding-top: 15px;
+  }
+
+  .title-info {
+    padding: 10px;
+  }
+
+  .info-article {
+    font-size: 1.7rem;
+    line-height: 18px;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .soft-skills {
+    font-size: 1.9rem;
+    padding: 15px;
+  }
+
+  .container-softskills, .languages-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el ancho mínimo según tus necesidades */
+    gap: 20px; /* Espacio entre elementos */
+  }
+  
+  .skill {
+    text-align: center;
+  }
+    img {
+      width: 5vw;
+      margin: 0 auto;
+      padding: 8px;
+    }
+
+  .container-softskills p {
+    font-size: 1.7rem;
+  }
+  .Lenguajes {
+    padding: 25px;
+  }
+  
+    img {
+      width: 5vw;
+    }
+
+  .languages-container p {
+    padding: 10px;
+  }
+
+  .proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: $padding-large; /* Espacio entre los elementos */
+    width: 80vw;
+    margin: 0 auto;
+    h3, p {
+      margin: 0 auto;
+      font-size: 1.9rem;
+    } 
+    
+    img{
+      width: 100%;
+    }
+  }
+
 }
