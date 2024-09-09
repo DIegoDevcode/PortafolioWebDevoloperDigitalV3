@@ -86,20 +86,6 @@ p {
 }
 
 @media screen and (min-width: 320px) and (max-width: 700px) {
-  .main-header {
-    height: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: white;
-    padding: 0 0.4rem;
-  }
-  .button-menu {
-    padding-right: 15px;
-  }
   .layout {
     width: 80%;
     max-width: 600px;
@@ -248,7 +234,7 @@ p {
   }
   .greeting {
     padding-top: 90px;
-    width: 85vw;
+    width: 65vw;
     font-size: 1.7rem;
   }
   .greeting p {
@@ -553,16 +539,6 @@ p {
     display: inline-block;
     margin-top: 0;
     margin-right: 2rem;
-  }
-}
-@media screen and (min-width: 700px) and (max-width: 1800px) {
-  .greeting {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    height: 100px;
-    width: 50%;
-    padding-top: 5px;
   }
 }
 * {
